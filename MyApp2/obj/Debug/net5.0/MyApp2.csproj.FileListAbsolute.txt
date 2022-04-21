@@ -1,0 +1,16 @@
+C:\Dev\MyApp2\bin\Debug\net5.0\MyApp2.exe
+C:\Dev\MyApp2\bin\Debug\net5.0\MyApp2.deps.json
+C:\Dev\MyApp2\bin\Debug\net5.0\MyApp2.runtimeconfig.json
+C:\Dev\MyApp2\bin\Debug\net5.0\MyApp2.runtimeconfig.dev.json
+C:\Dev\MyApp2\bin\Debug\net5.0\MyApp2.dll
+C:\Dev\MyApp2\bin\Debug\net5.0\ref\MyApp2.dll
+C:\Dev\MyApp2\bin\Debug\net5.0\MyApp2.pdb
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.csproj.AssemblyReference.cache
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.AssemblyInfoInputs.cache
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.AssemblyInfo.cs
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.csproj.CoreCompileInputs.cache
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.dll
+C:\Dev\MyApp2\obj\Debug\net5.0\ref\MyApp2.dll
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.pdb
+C:\Dev\MyApp2\obj\Debug\net5.0\MyApp2.genruntimeconfig.cache

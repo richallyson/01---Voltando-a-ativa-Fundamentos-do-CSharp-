@@ -1,0 +1,16 @@
+C:\Dev\DotnetListas\bin\Debug\net5.0\DotnetListas.exe
+C:\Dev\DotnetListas\bin\Debug\net5.0\DotnetListas.deps.json
+C:\Dev\DotnetListas\bin\Debug\net5.0\DotnetListas.runtimeconfig.json
+C:\Dev\DotnetListas\bin\Debug\net5.0\DotnetListas.runtimeconfig.dev.json
+C:\Dev\DotnetListas\bin\Debug\net5.0\DotnetListas.dll
+C:\Dev\DotnetListas\bin\Debug\net5.0\ref\DotnetListas.dll
+C:\Dev\DotnetListas\bin\Debug\net5.0\DotnetListas.pdb
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.csproj.AssemblyReference.cache
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.AssemblyInfoInputs.cache
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.AssemblyInfo.cs
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.csproj.CoreCompileInputs.cache
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.dll
+C:\Dev\DotnetListas\obj\Debug\net5.0\ref\DotnetListas.dll
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.pdb
+C:\Dev\DotnetListas\obj\Debug\net5.0\DotnetListas.genruntimeconfig.cache

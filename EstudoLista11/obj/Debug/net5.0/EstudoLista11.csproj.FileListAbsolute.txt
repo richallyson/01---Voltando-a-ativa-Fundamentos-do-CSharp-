@@ -1,0 +1,16 @@
+C:\Dev\EstudoLista11\bin\Debug\net5.0\EstudoLista11.exe
+C:\Dev\EstudoLista11\bin\Debug\net5.0\EstudoLista11.deps.json
+C:\Dev\EstudoLista11\bin\Debug\net5.0\EstudoLista11.runtimeconfig.json
+C:\Dev\EstudoLista11\bin\Debug\net5.0\EstudoLista11.runtimeconfig.dev.json
+C:\Dev\EstudoLista11\bin\Debug\net5.0\EstudoLista11.dll
+C:\Dev\EstudoLista11\bin\Debug\net5.0\ref\EstudoLista11.dll
+C:\Dev\EstudoLista11\bin\Debug\net5.0\EstudoLista11.pdb
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.csproj.AssemblyReference.cache
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.AssemblyInfoInputs.cache
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.AssemblyInfo.cs
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.csproj.CoreCompileInputs.cache
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.dll
+C:\Dev\EstudoLista11\obj\Debug\net5.0\ref\EstudoLista11.dll
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.pdb
+C:\Dev\EstudoLista11\obj\Debug\net5.0\EstudoLista11.genruntimeconfig.cache

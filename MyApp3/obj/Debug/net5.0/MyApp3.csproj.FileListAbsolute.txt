@@ -1,0 +1,16 @@
+C:\Dev\MyApp3\bin\Debug\net5.0\MyApp3.exe
+C:\Dev\MyApp3\bin\Debug\net5.0\MyApp3.deps.json
+C:\Dev\MyApp3\bin\Debug\net5.0\MyApp3.runtimeconfig.json
+C:\Dev\MyApp3\bin\Debug\net5.0\MyApp3.runtimeconfig.dev.json
+C:\Dev\MyApp3\bin\Debug\net5.0\MyApp3.dll
+C:\Dev\MyApp3\bin\Debug\net5.0\ref\MyApp3.dll
+C:\Dev\MyApp3\bin\Debug\net5.0\MyApp3.pdb
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.csproj.AssemblyReference.cache
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.AssemblyInfoInputs.cache
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.AssemblyInfo.cs
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.csproj.CoreCompileInputs.cache
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.dll
+C:\Dev\MyApp3\obj\Debug\net5.0\ref\MyApp3.dll
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.pdb
+C:\Dev\MyApp3\obj\Debug\net5.0\MyApp3.genruntimeconfig.cache

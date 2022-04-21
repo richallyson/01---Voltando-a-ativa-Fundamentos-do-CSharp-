@@ -1,0 +1,16 @@
+C:\Dev\EstudoLista2\bin\Debug\net5.0\EstudoLista2.exe
+C:\Dev\EstudoLista2\bin\Debug\net5.0\EstudoLista2.deps.json
+C:\Dev\EstudoLista2\bin\Debug\net5.0\EstudoLista2.runtimeconfig.json
+C:\Dev\EstudoLista2\bin\Debug\net5.0\EstudoLista2.runtimeconfig.dev.json
+C:\Dev\EstudoLista2\bin\Debug\net5.0\EstudoLista2.dll
+C:\Dev\EstudoLista2\bin\Debug\net5.0\ref\EstudoLista2.dll
+C:\Dev\EstudoLista2\bin\Debug\net5.0\EstudoLista2.pdb
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.csproj.AssemblyReference.cache
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.AssemblyInfoInputs.cache
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.AssemblyInfo.cs
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.csproj.CoreCompileInputs.cache
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.dll
+C:\Dev\EstudoLista2\obj\Debug\net5.0\ref\EstudoLista2.dll
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.pdb
+C:\Dev\EstudoLista2\obj\Debug\net5.0\EstudoLista2.genruntimeconfig.cache

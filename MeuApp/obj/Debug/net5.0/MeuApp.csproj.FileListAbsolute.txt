@@ -1,0 +1,16 @@
+C:\Dev\MeuApp\bin\Debug\net5.0\MeuApp.exe
+C:\Dev\MeuApp\bin\Debug\net5.0\MeuApp.deps.json
+C:\Dev\MeuApp\bin\Debug\net5.0\MeuApp.runtimeconfig.json
+C:\Dev\MeuApp\bin\Debug\net5.0\MeuApp.runtimeconfig.dev.json
+C:\Dev\MeuApp\bin\Debug\net5.0\MeuApp.dll
+C:\Dev\MeuApp\bin\Debug\net5.0\ref\MeuApp.dll
+C:\Dev\MeuApp\bin\Debug\net5.0\MeuApp.pdb
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.csproj.AssemblyReference.cache
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.AssemblyInfoInputs.cache
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.AssemblyInfo.cs
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.csproj.CoreCompileInputs.cache
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.dll
+C:\Dev\MeuApp\obj\Debug\net5.0\ref\MeuApp.dll
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.pdb
+C:\Dev\MeuApp\obj\Debug\net5.0\MeuApp.genruntimeconfig.cache

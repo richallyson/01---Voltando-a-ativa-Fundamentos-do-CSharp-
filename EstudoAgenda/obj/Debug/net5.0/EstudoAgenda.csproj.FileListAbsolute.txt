@@ -1,0 +1,16 @@
+C:\Dev\EstudoAgenda\bin\Debug\net5.0\EstudoAgenda.exe
+C:\Dev\EstudoAgenda\bin\Debug\net5.0\EstudoAgenda.deps.json
+C:\Dev\EstudoAgenda\bin\Debug\net5.0\EstudoAgenda.runtimeconfig.json
+C:\Dev\EstudoAgenda\bin\Debug\net5.0\EstudoAgenda.runtimeconfig.dev.json
+C:\Dev\EstudoAgenda\bin\Debug\net5.0\EstudoAgenda.dll
+C:\Dev\EstudoAgenda\bin\Debug\net5.0\ref\EstudoAgenda.dll
+C:\Dev\EstudoAgenda\bin\Debug\net5.0\EstudoAgenda.pdb
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.csproj.AssemblyReference.cache
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.AssemblyInfoInputs.cache
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.AssemblyInfo.cs
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.csproj.CoreCompileInputs.cache
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.dll
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\ref\EstudoAgenda.dll
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.pdb
+C:\Dev\EstudoAgenda\obj\Debug\net5.0\EstudoAgenda.genruntimeconfig.cache

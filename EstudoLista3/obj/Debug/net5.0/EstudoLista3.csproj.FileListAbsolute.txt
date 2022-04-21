@@ -1,0 +1,16 @@
+C:\Dev\EstudoLista3\bin\Debug\net5.0\EstudoLista3.exe
+C:\Dev\EstudoLista3\bin\Debug\net5.0\EstudoLista3.deps.json
+C:\Dev\EstudoLista3\bin\Debug\net5.0\EstudoLista3.runtimeconfig.json
+C:\Dev\EstudoLista3\bin\Debug\net5.0\EstudoLista3.runtimeconfig.dev.json
+C:\Dev\EstudoLista3\bin\Debug\net5.0\EstudoLista3.dll
+C:\Dev\EstudoLista3\bin\Debug\net5.0\ref\EstudoLista3.dll
+C:\Dev\EstudoLista3\bin\Debug\net5.0\EstudoLista3.pdb
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.csproj.AssemblyReference.cache
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.AssemblyInfoInputs.cache
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.AssemblyInfo.cs
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.csproj.CoreCompileInputs.cache
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.dll
+C:\Dev\EstudoLista3\obj\Debug\net5.0\ref\EstudoLista3.dll
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.pdb
+C:\Dev\EstudoLista3\obj\Debug\net5.0\EstudoLista3.genruntimeconfig.cache
