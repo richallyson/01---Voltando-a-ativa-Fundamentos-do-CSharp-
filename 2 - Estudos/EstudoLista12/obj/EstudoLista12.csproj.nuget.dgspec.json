@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\EstudoLista12\\EstudoLista12.csproj": {}
+    "C:\\Dev\\2 - Estudos\\EstudoLista12\\EstudoLista12.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\EstudoLista12\\EstudoLista12.csproj": {
+    "C:\\Dev\\2 - Estudos\\EstudoLista12\\EstudoLista12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\EstudoLista12\\EstudoLista12.csproj",
+        "projectUniqueName": "C:\\Dev\\2 - Estudos\\EstudoLista12\\EstudoLista12.csproj",
         "projectName": "EstudoLista12",
-        "projectPath": "C:\\Dev\\EstudoLista12\\EstudoLista12.csproj",
+        "projectPath": "C:\\Dev\\2 - Estudos\\EstudoLista12\\EstudoLista12.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\EstudoLista12\\obj\\",
+        "outputPath": "C:\\Dev\\2 - Estudos\\EstudoLista12\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

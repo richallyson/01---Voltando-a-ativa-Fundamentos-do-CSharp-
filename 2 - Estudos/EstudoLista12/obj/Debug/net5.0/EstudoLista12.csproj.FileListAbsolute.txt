@@ -1,0 +1,16 @@
+C:\Dev\2 - Estudos\EstudoLista12\bin\Debug\net5.0\EstudoLista12.exe
+C:\Dev\2 - Estudos\EstudoLista12\bin\Debug\net5.0\EstudoLista12.deps.json
+C:\Dev\2 - Estudos\EstudoLista12\bin\Debug\net5.0\EstudoLista12.runtimeconfig.json
+C:\Dev\2 - Estudos\EstudoLista12\bin\Debug\net5.0\EstudoLista12.runtimeconfig.dev.json
+C:\Dev\2 - Estudos\EstudoLista12\bin\Debug\net5.0\EstudoLista12.dll
+C:\Dev\2 - Estudos\EstudoLista12\bin\Debug\net5.0\ref\EstudoLista12.dll
+C:\Dev\2 - Estudos\EstudoLista12\bin\Debug\net5.0\EstudoLista12.pdb
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.csproj.AssemblyReference.cache
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.AssemblyInfoInputs.cache
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.AssemblyInfo.cs
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.csproj.CoreCompileInputs.cache
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.dll
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\ref\EstudoLista12.dll
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.pdb
+C:\Dev\2 - Estudos\EstudoLista12\obj\Debug\net5.0\EstudoLista12.genruntimeconfig.cache
