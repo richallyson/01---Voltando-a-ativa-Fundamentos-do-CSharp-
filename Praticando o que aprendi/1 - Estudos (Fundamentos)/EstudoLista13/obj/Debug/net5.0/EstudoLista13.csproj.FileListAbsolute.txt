@@ -1,0 +1,16 @@
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\bin\Debug\net5.0\EstudoLista13.exe
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\bin\Debug\net5.0\EstudoLista13.deps.json
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\bin\Debug\net5.0\EstudoLista13.runtimeconfig.json
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\bin\Debug\net5.0\EstudoLista13.runtimeconfig.dev.json
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\bin\Debug\net5.0\EstudoLista13.dll
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\bin\Debug\net5.0\ref\EstudoLista13.dll
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\bin\Debug\net5.0\EstudoLista13.pdb
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.csproj.AssemblyReference.cache
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.AssemblyInfoInputs.cache
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.AssemblyInfo.cs
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.csproj.CoreCompileInputs.cache
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.dll
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\ref\EstudoLista13.dll
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.pdb
+C:\Dev\Praticando o que aprendi\1 - Estudos (Fundamentos)\EstudoLista13\obj\Debug\net5.0\EstudoLista13.genruntimeconfig.cache

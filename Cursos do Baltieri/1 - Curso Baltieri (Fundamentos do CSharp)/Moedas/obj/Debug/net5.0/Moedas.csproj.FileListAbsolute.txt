@@ -1,0 +1,32 @@
+C:\Dev\Moedas\bin\Debug\net5.0\Moedas.exe
+C:\Dev\Moedas\bin\Debug\net5.0\Moedas.deps.json
+C:\Dev\Moedas\bin\Debug\net5.0\Moedas.runtimeconfig.json
+C:\Dev\Moedas\bin\Debug\net5.0\Moedas.runtimeconfig.dev.json
+C:\Dev\Moedas\bin\Debug\net5.0\Moedas.dll
+C:\Dev\Moedas\bin\Debug\net5.0\ref\Moedas.dll
+C:\Dev\Moedas\bin\Debug\net5.0\Moedas.pdb
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.csproj.AssemblyReference.cache
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.AssemblyInfoInputs.cache
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.AssemblyInfo.cs
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.csproj.CoreCompileInputs.cache
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.dll
+C:\Dev\Moedas\obj\Debug\net5.0\ref\Moedas.dll
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.pdb
+C:\Dev\Moedas\obj\Debug\net5.0\Moedas.genruntimeconfig.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.csproj.AssemblyReference.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.AssemblyInfoInputs.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.AssemblyInfo.cs
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.csproj.CoreCompileInputs.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\ref\Moedas.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.pdb
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\bin\Debug\net5.0\Moedas.exe
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\bin\Debug\net5.0\Moedas.deps.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\bin\Debug\net5.0\Moedas.runtimeconfig.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\bin\Debug\net5.0\Moedas.runtimeconfig.dev.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\bin\Debug\net5.0\Moedas.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\bin\Debug\net5.0\ref\Moedas.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\bin\Debug\net5.0\Moedas.pdb
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Moedas\obj\Debug\net5.0\Moedas.genruntimeconfig.cache
