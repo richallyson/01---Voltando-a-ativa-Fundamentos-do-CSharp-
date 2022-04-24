@@ -1,0 +1,16 @@
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\bin\Debug\net5.0\Exceptions.exe
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\bin\Debug\net5.0\Exceptions.deps.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\bin\Debug\net5.0\Exceptions.runtimeconfig.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\bin\Debug\net5.0\Exceptions.runtimeconfig.dev.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\bin\Debug\net5.0\Exceptions.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\bin\Debug\net5.0\ref\Exceptions.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\bin\Debug\net5.0\Exceptions.pdb
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.csproj.AssemblyReference.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.AssemblyInfoInputs.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.AssemblyInfo.cs
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\ref\Exceptions.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.pdb
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\Exceptions\obj\Debug\net5.0\Exceptions.genruntimeconfig.cache
