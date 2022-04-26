@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Cursos do Baltieri\\1 - Curso Baltieri (Fundamentos do CSharp)\\TextEditor\\TextEditor.csproj",
-      "projectName": "TextEditor",
-      "projectPath": "C:\\Dev\\Cursos do Baltieri\\1 - Curso Baltieri (Fundamentos do CSharp)\\TextEditor\\TextEditor.csproj",
+      "projectUniqueName": "C:\\Dev\\Praticando o que aprendi\\1 - Estudos (Fundamentos)\\EstudoLista14\\EstudoLista14.csproj",
+      "projectName": "EstudoLista14",
+      "projectPath": "C:\\Dev\\Praticando o que aprendi\\1 - Estudos (Fundamentos)\\EstudoLista14\\EstudoLista14.csproj",
       "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Cursos do Baltieri\\1 - Curso Baltieri (Fundamentos do CSharp)\\TextEditor\\obj\\",
+      "outputPath": "C:\\Dev\\Praticando o que aprendi\\1 - Estudos (Fundamentos)\\EstudoLista14\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

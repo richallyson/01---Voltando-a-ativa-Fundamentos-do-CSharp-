@@ -14,3 +14,19 @@ C:\Dev\TextEditor\obj\Debug\net5.0\TextEditor.dll
 C:\Dev\TextEditor\obj\Debug\net5.0\ref\TextEditor.dll
 C:\Dev\TextEditor\obj\Debug\net5.0\TextEditor.pdb
 C:\Dev\TextEditor\obj\Debug\net5.0\TextEditor.genruntimeconfig.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\bin\Debug\net5.0\TextEditor.exe
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\bin\Debug\net5.0\TextEditor.deps.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\bin\Debug\net5.0\TextEditor.runtimeconfig.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\bin\Debug\net5.0\TextEditor.runtimeconfig.dev.json
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\bin\Debug\net5.0\TextEditor.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\bin\Debug\net5.0\ref\TextEditor.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\bin\Debug\net5.0\TextEditor.pdb
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.csproj.AssemblyReference.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.AssemblyInfoInputs.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.AssemblyInfo.cs
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.csproj.CoreCompileInputs.cache
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\ref\TextEditor.dll
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.pdb
+C:\Dev\Cursos do Baltieri\1 - Curso Baltieri (Fundamentos do CSharp)\TextEditor\obj\Debug\net5.0\TextEditor.genruntimeconfig.cache
