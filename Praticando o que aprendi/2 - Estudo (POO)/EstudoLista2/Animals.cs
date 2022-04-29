@@ -30,25 +30,29 @@ namespace EstudoLista2
             }
         }
 
-        public Animals(string nomeAnimal, EAnimalType tipoAnimal)
+        public Animals()
         {
             // Sinceramente eu não sei se isso é usual kkkkk quando eu desenvolvia jogos, nunca fiz nada parecido com isso, pois tinha medo de quebrar o jogo todo
             // No caso eu to falando de usar essa forma aqui de setar as infos do construtor usando funções
             // Não façam programa assim, pois caso você queira usar, por exemplo, em uma função aqui dentro do escopo msm da classe...
             // ELe sempre vai chamar as funções e vai ficar tudo maluco
             // Mas pra esse programa eu vou deixar assim msm, pela ciência
-            nome = SetNome(nomeAnimal);
-            tipo = SetTipo(tipoAnimal);
+            //nome = SetNome(nomeAnimal);
+            //tipo = SetTipo(tipoAnimal);
+
+            // Comentei o código acima e fiz da forma correta, que vai evitar buchos no futuro
+            this.Nome = nome;
+            this.Tipo = tipo;
         }
 
-        public string SetNome(string nomeAnimal)
+        public string SetNome()
         {
             Console.WriteLine("Digite o nome do seu animalzinho:");
-            nomeAnimal = Console.ReadLine();
+            var nomeAnimal = Console.ReadLine();
             return nome = nomeAnimal;
         }
 
-        public EAnimalType SetTipo(EAnimalType tipoAnimal)
+        public EAnimalType SetTipo()
         {
             var escolha = 0;
             Console.WriteLine("Qual o tipo do seu animal? Digite o numero relacionado a ele.");
@@ -59,10 +63,10 @@ namespace EstudoLista2
             escolha = int.Parse(Console.ReadLine());
             switch (escolha)
             {
-                case 1: tipoAnimal = EAnimalType.Gato; break;
-                case 2: tipoAnimal = EAnimalType.Cachorro; break;
-                case 3: tipoAnimal = EAnimalType.Peixe; break;
-                default: tipoAnimal = EAnimalType.Peixe; break;
+                case 1: tipo = EAnimalType.Gato; break;
+                case 2: tipo = EAnimalType.Cachorro; break;
+                case 3: tipo = EAnimalType.Peixe; break;
+                default: tipo = EAnimalType.Peixe; break;
 
                     // if (tipo != EAnimalType.Cachorro && tipo != EAnimalType.Gato && tipo != EAnimalType.Peixe)
                     // {
@@ -70,7 +74,7 @@ namespace EstudoLista2
                     // }
                     // break;
             }
-            return tipoAnimal;
+            return tipo;
         }
     }
 

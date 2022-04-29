@@ -15,19 +15,30 @@ namespace EstudoLista2
             Console.WriteLine("Preencha o dado de 5 animais");
             Console.WriteLine("=================================");
             Console.WriteLine("Primeiro animal:");
-            var animal1 = new Animals("", EAnimalType.Cachorro);
+            var animal1 = new Animals();
+            animal1.nome = animal1.SetNome();
+            animal1.tipo = animal1.SetTipo();
             Console.WriteLine("=================================");
             Console.WriteLine("Segundo animal:");
-            var animal2 = new Animals("", EAnimalType.Cachorro);
+            var animal2 = new Animals();
+            animal2.nome = animal2.SetNome();
+            animal2.tipo = animal2.SetTipo();
             Console.WriteLine("=================================");
             Console.WriteLine("Terceiro animal:");
-            var animal3 = new Animals("", EAnimalType.Cachorro);
+            var animal3 = new Animals();
+            animal3.nome = animal3.SetNome();
+            animal3.tipo = animal3.SetTipo();
             Console.WriteLine("=================================");
             Console.WriteLine("Quarto animal:");
-            var animal4 = new Animals("", EAnimalType.Cachorro);
+            var animal4 = new Animals();
+            animal4.nome = animal4.SetNome();
+            animal4.tipo = animal4.SetTipo();
             Console.WriteLine("=================================");
             Console.WriteLine("Quinto animal:");
-            var animal5 = new Animals("", EAnimalType.Cachorro);
+            var animal5 = new Animals();
+            animal5.nome = animal5.SetNome();
+            animal5.tipo = animal5.SetTipo();
+
 
             // Contador dos bixos
             // Vou botar todos os animais em uma array, pq vai facilitar dms o trabalho
