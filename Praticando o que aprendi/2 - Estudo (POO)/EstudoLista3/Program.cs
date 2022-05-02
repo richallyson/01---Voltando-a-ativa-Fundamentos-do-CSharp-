@@ -6,7 +6,7 @@ namespace EstudoLista3
     {
         static void Main(string[] args)
         {
-            Menu.Show();
+            MainMenu.Show();
         }
     }
 }

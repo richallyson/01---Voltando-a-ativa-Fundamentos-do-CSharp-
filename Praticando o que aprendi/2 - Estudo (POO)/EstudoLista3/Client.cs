@@ -32,5 +32,15 @@ namespace EstudoLista3
             var valor = decimal.Parse(Console.ReadLine());
             return CreditBalance = valor;
         }
+
+        public string ViewDebit()
+        {
+            return _debitBalance.ToString();
+        }
+
+        public string ViewCredit()
+        {
+            return _creditBalance.ToString();
+        }
     }
 }

@@ -2,13 +2,12 @@ using System;
 
 namespace EstudoLista3
 {
-    public class Menu
+
+    public class CashierMenu
     {
         public static void Show()
         {
             Console.Clear();
-            Console.BackgroundColor = ConsoleColor.Blue;
-            Console.ForegroundColor = ConsoleColor.Black;
 
             DrawScreen();
             WriteOptions();
@@ -19,27 +18,26 @@ namespace EstudoLista3
 
         public static void DrawScreen()
         {
-            MenuDrawning.DrawPlusLine(90, "+", "-");
+            MenuDrawning.DrawPlusLine(60, "+", "-");
             Console.Write("\n");
-            MenuDrawning.DrawPipeLine(30, "|", " ");
-            MenuDrawning.DrawPlusLine(90, "+", "-");
-
+            MenuDrawning.DrawPipeLine(30, 60, "|", " ");
+            MenuDrawning.DrawPlusLine(60, "+", "-");
         }
 
         public static void WriteOptions()
         {
-            Console.SetCursorPosition(9, 1);
-            Console.WriteLine("= Editor HTML =");
+            Console.SetCursorPosition(20, 1);
+            Console.WriteLine("= MENU DO CAIXA =");
             Console.SetCursorPosition(1, 2);
-            Console.WriteLine("===============================");
+            MenuDrawning.DrawEqualLine(60, "=");
             Console.SetCursorPosition(3, 3);
-            Console.WriteLine("Selecione uma opção abaixo:");
+            Console.WriteLine("Você deseja entrar como:");
             Console.SetCursorPosition(1, 4);
-            Console.WriteLine("===============================");
+            MenuDrawning.DrawEqualLine(60, "=");
             Console.SetCursorPosition(2, 5);
-            Console.WriteLine("1 - Novo arquivo");
+            Console.WriteLine("1 - Cliente");
             Console.SetCursorPosition(2, 6);
-            Console.WriteLine("2 - Abrir arquivo");
+            Console.WriteLine("2 - Funcionário");
             Console.SetCursorPosition(2, 7);
             Console.WriteLine("0 - Sair");
             Console.SetCursorPosition(2, 10);
@@ -51,7 +49,7 @@ namespace EstudoLista3
         {
             switch (option)
             {
-                case 1: Menu.Show(); break;
+                case 1: MainMenu.Show(); break;
                 case 2: Console.WriteLine("View"); break;
                 case 0:
                     {

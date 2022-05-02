@@ -48,6 +48,7 @@ namespace EstudoLista3
                     {
                         client.DebitBalance -= value;
                         Console.WriteLine("O seu pagamento foi realizado com sucesso!");
+                        Console.WriteLine($"Você pagou {value} na compra e seu saldo agora é de {client.DebitBalance}");
                     }
                     break;
                 case 2:
