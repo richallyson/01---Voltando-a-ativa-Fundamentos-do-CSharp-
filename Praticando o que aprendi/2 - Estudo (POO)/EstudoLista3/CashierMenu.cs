@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace EstudoLista3
 {
@@ -9,11 +10,11 @@ namespace EstudoLista3
         {
             Console.Clear();
 
+            var products = new List<Product>();
+            var guid = Guid.NewGuid();
             DrawScreen();
-            WriteOptions();
-
-            var option = short.Parse(Console.ReadLine());
-            HandleMenuOption(option);
+            ProductsAddMenu.AddProducts(products);
+            //products.ForEach(p => Console.WriteLine(p.NomeDoProduto));
         }
 
         public static void DrawScreen()
