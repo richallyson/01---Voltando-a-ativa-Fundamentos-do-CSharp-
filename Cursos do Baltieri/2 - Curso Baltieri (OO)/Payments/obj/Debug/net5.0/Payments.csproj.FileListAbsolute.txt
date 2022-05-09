@@ -1,0 +1,16 @@
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\bin\Debug\net5.0\Payments.exe
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\bin\Debug\net5.0\Payments.deps.json
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\bin\Debug\net5.0\Payments.runtimeconfig.json
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\bin\Debug\net5.0\Payments.runtimeconfig.dev.json
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\bin\Debug\net5.0\Payments.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\bin\Debug\net5.0\ref\Payments.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\bin\Debug\net5.0\Payments.pdb
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.csproj.AssemblyReference.cache
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.AssemblyInfoInputs.cache
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.AssemblyInfo.cs
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.csproj.CoreCompileInputs.cache
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\ref\Payments.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.pdb
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Payments\obj\Debug\net5.0\Payments.genruntimeconfig.cache

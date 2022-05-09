@@ -1,0 +1,16 @@
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\bin\Debug\net5.0\Balta.exe
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\bin\Debug\net5.0\Balta.deps.json
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\bin\Debug\net5.0\Balta.runtimeconfig.json
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\bin\Debug\net5.0\Balta.runtimeconfig.dev.json
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\bin\Debug\net5.0\Balta.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\bin\Debug\net5.0\ref\Balta.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\bin\Debug\net5.0\Balta.pdb
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.csproj.AssemblyReference.cache
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.AssemblyInfoInputs.cache
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.AssemblyInfo.cs
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.csproj.CoreCompileInputs.cache
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\ref\Balta.dll
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.pdb
+C:\Dev\Cursos do Baltieri\2 - Curso Baltieri (OO)\Balta\obj\Debug\net5.0\Balta.genruntimeconfig.cache

@@ -1,0 +1,18 @@
+== Academia ==
+
+* Planos *
+- Plano normal (3 dias de academia na semana)
+- Plano semanal (segunda a sábado)
+- Natação (direito a fazer aula de natação)
+- Arte Marcial (direito a fazer uma arte marcial de sua escolha)
+- Nutrição (consulta com nutricionista (pagar a cada consulta))
+- Combo plano normal com natação
+- Combo plano semanal com natação
+- Combo plano semanal com natação e artes marciais
+- Combo com plano semanal, natação, arte marcial e duas consultas no mês com nutricionista
+
+* Contexts * 
+º Content (Gym)
+- 
+º Subscription
+º Notification

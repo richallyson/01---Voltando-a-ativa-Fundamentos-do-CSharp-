@@ -1,70 +1,87 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Payments
 {
     class Program
     {
-        // Esse projeto passa por cima de todos os conceitos de OO. 
-        // Para não ficar lotado demais, toda vez que eu achar necessário, vou dividir o conteúdo em outros arquivos chamados Parte
         static void Main(string[] args)
         {
-            var pag = new Pagamento();
+            //IList<Payments> payments = new List<Payments>();
+            //IEnumerable<Payments> payments = new List<Payments>();
+            //ICollection<Payments> payments = new List<Payments>();
+            var payments = new List<Payments>();
+            payments.Add(new Payments(1));
+            payments.Add(new Payments(2));
+            payments.Add(new Payments(3));
+            payments.Add(new Payments(4));
+            payments.Add(new Payments(5));
+            payments.Add(new Payments(6));
+
+            foreach (var p in payments)
+            {
+                Console.WriteLine(p.Id);
+            }
+
+            // var paidPayments = new List<Payments>();
+            // paidPayments.AddRange(payments);
+
+            // O where retorna um IEnumerable
+            // Ele aceita expressões como parametro
+            // Caso queira retornar apenas um item, substitua o Where por First
+            var payment = payments.First(x => x.Id == 3);
+            //var payment = payments.Where(x => x.Id == 3);
+
+            // Remover algo de uma lista
+            // No caso eu passei aquele objeto que tem o ID 3 que foi retornado pelo first
+            // Também temos o RemoveRange que remove uma sequencia de listas de uma lista
+            payments.Remove(payment);
+
+            // ANY Retorna um booleano se for encontrado
+            var exist = payments.Any(x => x.Id == 3);
+
+            // Count retorna quantos itens tem na lista dado uma expressão
+            var exists = payments.Count(x => x.Id == 3);
+            // Mas o count tbm pode ser usado de outras formas, como para pegar o tamanho de uma lista
+            // Abaixo ele vai retornar um inteiro que é equivalente ao tamanho da lista
+            var listRange = payments.Count();
+
+            // Também temos o Skip que pula um item da lista
+            var skip = payments.Skip(1);
+
+            // Também temos o Take que retorna quantos itens da lista eu quero. Pega quantos itens da lista eu quero
+            // Abaixo ele vai pegar apenas os 3 primeiros elementos da lista
+            var take = payments.Take(3);
+
+            // E o Skip e o Take podem ser usados juntos
+            foreach (var pay in payments.Skip(1).Take(3))
+            {
+                Console.WriteLine(pay.Id);
+            }
+
+            // Converte a lista para um Enumerable
+            payments.AsEnumerable();
+
+            // Converte o Enumerable para uma lista
+            payments.ToList();
+
+            // Converte para um array, seja enumerable ou lista
+            payments.ToArray();
+
+
         }
     }
 
-    public class Pagamento
+    public class Payments
     {
-        public DateTime Vencimento;
-        private DateTime _dataPagamento;
-        public DateTime DataPagamento
+        public int Id { get; set; }
+
+        public Payments(int id)
         {
-            get { return _dataPagamento; }
-            set { _dataPagamento = value; }
-        }
-
-        // Famigerado metodo construtor
-        // Toda vez que você criar um construtor na classe pai, as classes filhas tbm tem que criar um constrtor
-        public Pagamento(DateTime dataPagamento)
-        {
-            Vencimento = DateTime.Now;
-            _dataPagamento = dataPagamento;
-        }
-
-        // Caso você não queira criar um construtor na classe filha, você tem que criar uma sobrecarga da função construtora do pai
-        // Essa função se chama de função parameterless
-        // Mas caso você queira sempre receber o parametro no construtor, você deve fazer como mostrado na classe PagamentoCartao
-        //public Pagamento() { }
-
-        public void Pagar(string teste)
-        {
-
-        }
-
-        // Isso aqui de criar o metodo com o mesmo nome, e com argumentos a mais e trazendo os argumentos antigos...
-        // se chama sobrecarga
-        // Sobreescrita é quando você usa o virtual na função pai e na filha bota um override
-        // E lembrando que para chamar o metodo do pai, é só usar o base.NomeDaFuncao()
-        public void Pagar(string teste, DateTime vencimento)
-        {
-
-        }
-        // O mesmo metodo que o acima, com parametros diferentes
-        // Relembrando que se você já passar um valor no argumento, ele n precisa setado quando for chamado, só se quiser
-        // Ela vira opcional e sempre tem que vir por final
-        public void Pagar(string teste, DateTime vencimento, bool pagarAposVencimento = true)
-        {
-
+            Id = id;
         }
     }
 
-    public class PagamentoCartao : Pagamento
-    {
-        public PagamentoCartao(DateTime dataPagamento)
-        // Fazendo isso aqui você vai solucionar o problema em relação a criação do construtor, caso a classe pai peça um de forma obrigatoria        
-        // Basicamente eu estou fazendo uma herança do construtor base usando o :
-        : base(dataPagamento)
-        {
-
-        }
-    }
 }

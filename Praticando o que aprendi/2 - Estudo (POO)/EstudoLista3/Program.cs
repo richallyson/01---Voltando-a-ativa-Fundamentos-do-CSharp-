@@ -6,7 +6,7 @@ namespace EstudoLista3
     {
         static void Main(string[] args)
         {
-            MainMenu.Show();
+            Console.WriteLine("Hello World!");
         }
     }
 }
