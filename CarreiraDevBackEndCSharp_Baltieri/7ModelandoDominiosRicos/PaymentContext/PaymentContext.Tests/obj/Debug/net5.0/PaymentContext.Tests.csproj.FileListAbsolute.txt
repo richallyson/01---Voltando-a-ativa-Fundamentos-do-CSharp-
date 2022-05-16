@@ -1,0 +1,309 @@
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\testhost.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\testhost.exe
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.deps.json
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.runtimeconfig.json
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.runtimeconfig.dev.json
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ref\PaymentContext.Tests.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.pdb
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\NuGet.Frameworks.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.AssemblyReference.cache
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.AssemblyInfoInputs.cache
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.AssemblyInfo.cs
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.CoreCompileInputs.cache
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.CopyComplete
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\ref\PaymentContext.Tests.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.pdb
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.genruntimeconfig.cache
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\testhost.exe
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\testhost.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.deps.json
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.runtimeconfig.json
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.runtimeconfig.dev.json
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ref\PaymentContext.Tests.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.pdb
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Flunt.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\NuGet.Frameworks.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Shared.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Shared.pdb
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.AssemblyReference.cache
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.AssemblyInfoInputs.cache
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.AssemblyInfo.cs
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.CoreCompileInputs.cache
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.CopyComplete
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\ref\PaymentContext.Tests.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.pdb
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.genruntimeconfig.cache
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\testhost.exe
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\testhost.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.deps.json
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.runtimeconfig.json
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.runtimeconfig.dev.json
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ref\PaymentContext.Tests.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Tests.pdb
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Flunt.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\NuGet.Frameworks.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Shared.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Shared.pdb
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.AssemblyReference.cache
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.AssemblyInfoInputs.cache
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.AssemblyInfo.cs
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.CoreCompileInputs.cache
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.csproj.CopyComplete
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\ref\PaymentContext.Tests.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.pdb
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.genruntimeconfig.cache

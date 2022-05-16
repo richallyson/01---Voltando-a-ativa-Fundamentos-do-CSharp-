@@ -1,0 +1,42 @@
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.deps.json
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\ref\PaymentContext.Domain.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.AssemblyReference.cache
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfoInputs.cache
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfo.cs
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\ref\PaymentContext.Domain.dll
+C:\Dev\Cursos do Baltieri\3 - Modelando dominios ricos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.deps.json
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\ref\PaymentContext.Domain.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Shared.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Shared.pdb
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.AssemblyReference.cache
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfoInputs.cache
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfo.cs
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CopyComplete
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\ref\PaymentContext.Domain.dll
+C:\Dev\Praticando o que aprendi\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.deps.json
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\ref\PaymentContext.Domain.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Domain.pdb
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Shared.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\bin\Debug\net5.0\PaymentContext.Shared.pdb
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.AssemblyReference.cache
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfoInputs.cache
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.AssemblyInfo.cs
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.csproj.CopyComplete
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\ref\PaymentContext.Domain.dll
+C:\Dev\Praticas\3DominiosRicos\PaymentContext\PaymentContext.Domain\obj\Debug\net5.0\PaymentContext.Domain.pdb
