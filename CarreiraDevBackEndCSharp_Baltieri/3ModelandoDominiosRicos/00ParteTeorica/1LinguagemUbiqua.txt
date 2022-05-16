@@ -1,0 +1,7 @@
+- To o processo que a gente passa como desenvolver, a gente tem uma história do cliente a ser contada pra gente. 
+
+- E em cima disso iremos começar o desenvolvimento. Mas para isso é necessário conhecer sobre o negocio. Seus termos e forma de funcionar. Não adianta saber codar ultra bem, se você não conhece bem o negócio.
+
+- Sendo assim, a linguagem ubiqua vem justamente para trazer o contexto do contratante para o código. Por exemplo, se o contratante chama alguma entidade que você detectou de bananada, no código também você vai usar esse termo, pois esse termo faz parte do negócio. É a linguagem que ele usa.
+
+- Sendo assim, linguagem ubiqua é a unificação da linguagem. Você se seu cliente falando a mesma lingua.

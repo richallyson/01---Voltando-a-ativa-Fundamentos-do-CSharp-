@@ -1,0 +1,10 @@
+- No Dominio anemico você só tem as propriedades, que reflete o que ta no seu banco.
+- Ou seja, não tem funções, nem regras de negócio
+- Caso precise fazer uma verificação isso será feito no banco
+- Você não consegue testar um store procedure
+
+- Já os Dominios Ricos as regras de negócio ficam na aplicação 
+- No caso do C# é muito melhor assim, pelo fato dela ser uma linguagem compilada. É bem mais ricas que as linguagens usadas para banco de dados. Você consegue pegar os erros em tempo de compilação
+- OOP é mais rico que o MER
+- Basicamente uma aplicação que testa absolutamente tudo antes de subir pro banco.
+- Muito bom para se usar com NoSQL, pois como tudo já está testado dentro do código, fica muito mais suave de subir. 

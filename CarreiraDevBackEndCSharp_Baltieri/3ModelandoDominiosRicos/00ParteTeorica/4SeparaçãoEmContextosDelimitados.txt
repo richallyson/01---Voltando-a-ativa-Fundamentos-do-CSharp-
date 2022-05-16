@@ -1,0 +1,6 @@
+- Funciona como pequenos pedaços do sistema que a gente vai criar
+- Batch Size - Tamanho da mudança
+- Supondo que você vai fazer alguns subdominios, e dps a linguagem usada é descontinuada. Imagina o trabalho que isso não vai dar? 
+- Quanto menos coisa você fizer, mais fácil vai ser a mudança. Ao invés da gente pegar e fazer um sistema como todo, desenvolver o dominio rico e tudo, a gente vai fazer o contexto de pagamento, quebrar o que tem e fazer só em contextos menores.
+- Se vc tem um sistema, um RP, ai vc vai pro mudulo financeiro, ai dentro do financeiro tem o subdominio de pagamentos, e dentro do subdominio de pagamento a gente tem um contexto delimitado que é a realização de pagamentos
+- Um contexto delimitado tem que ser pequeno, funcional e de fácil manutenção e entendimento

@@ -1,0 +1,1 @@
+- A quebra do dominio em subdominios
