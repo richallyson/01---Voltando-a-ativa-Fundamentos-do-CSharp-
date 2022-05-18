@@ -1,0 +1,24 @@
+- Essa criação de tabalas e database foi só uma praticazinha pra aquecer os dedos e a mente. O balta já disponibiliza um database pra gente trabalhar em cima dele, que se encontra nesse link: https://github.com/balta-io/2805/blob/master/balta.zip
+
+- É DE GRANDE IMPORTÂNCIA baixar a extensão Admin Pack for SQL Server, dentro do Azure Data. Baixa do mesmo jeito que se baixa extensões no VSCode
+
+- Essa extensão vai fazer com que possa se ler o .bacpac, arquivo gerada por ela.
+
+- E para isso basta você voltar pro seu Azure Data, clicar com o botão direito em cima da pasta Databases, e clicar em Data-tier Application wizard
+
+- Após isso selecionar create a database from a .bacpac file. Selecionar o arquivo baixado do link acima, clicar em next e import
+
+=============================================
+
+- Caso tenha feito que nem eu e criado o database com todas as tables e relações, use o script abaixo para deletar o database
+
+USE [master];
+
+DECLARE @kill varchar(8000) = '';  
+SELECT @kill = @kill + 'kill ' + CONVERT(varchar(5), session_id) + ';'  
+FROM sys.dm_exec_sessions
+WHERE database_id  = db_id('balta')
+
+EXEC(@kill);
+
+DROP DATABASE [balta]
