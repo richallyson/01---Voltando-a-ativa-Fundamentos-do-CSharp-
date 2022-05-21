@@ -1,0 +1,13 @@
+= Ferramentas necessárias =
+- ASP.NET 5
+- VSCODE
+- SQL SERVER via DOCKER 
+- O banco de dados que usamos no final do curso de Fundamentos de SQL, o balta.bacpac
+
+= Acesso a dados na plataforma .NET =
+- Usar o ADO.NET (Active Data Objects), que nos fornece uma base para acesso a dados.
+- Os componentes padrões de acesso a dados a microsoft fornece, e dps outros pacotes padrões são criados em cima deles, como o Entity e o Dapper
+- O ADO.NET é o core, o centro de acesso a dados, não só pro SQL Server, mas pra n providers que a microsoft suporta.
+- Link para baixar: https://docs.microsoft.com/pt-br/sql/connect/ado-net/microsoft-ado-net-sql-server?view=sql-server-ver15
+
+* IREMOS ENTENDER COMO FUNCIONA O ACESSO A DADOS *
