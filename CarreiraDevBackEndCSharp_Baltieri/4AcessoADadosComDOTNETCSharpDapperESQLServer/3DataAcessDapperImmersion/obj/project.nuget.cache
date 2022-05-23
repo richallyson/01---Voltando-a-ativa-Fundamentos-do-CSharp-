@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CNO9ZkBWWZK7qYITHjuZQOkYrbk8jFTctDt6tV3mywb5SjDVULgeU0DXEpE5co9WnBpQ4xlnUYiDGW3y2Mpnnw==",
+  "dgSpecHash": "BR7XMByehfDLWf9xeeg9sVEUV5HRcJxKjFLdAzlmpGWJ1xhKp2o3zr2zpvSAr3qopMo8UWVABAutQ2MOxMxAog==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\2DataAcessDapper\\DataAcess.csproj",
+  "projectFilePath": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\3DataAcessDapperImmersion\\DataAcess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\richa\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

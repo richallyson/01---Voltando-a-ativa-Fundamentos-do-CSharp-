@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\2DataAcessDapper\\DataAcess.csproj": {}
+    "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\3DataAcessDapperImmersion\\DataAcess.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\2DataAcessDapper\\DataAcess.csproj": {
+    "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\3DataAcessDapperImmersion\\DataAcess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\2DataAcessDapper\\DataAcess.csproj",
+        "projectUniqueName": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\3DataAcessDapperImmersion\\DataAcess.csproj",
         "projectName": "DataAcess",
-        "projectPath": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\2DataAcessDapper\\DataAcess.csproj",
+        "projectPath": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\3DataAcessDapperImmersion\\DataAcess.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\2DataAcessDapper\\obj\\",
+        "outputPath": "C:\\Dev\\CarreiraDevBackEndCSharp_Baltieri\\4AcessoADadosComDOTNETCSharpDapperESQLServer\\3DataAcessDapperImmersion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
