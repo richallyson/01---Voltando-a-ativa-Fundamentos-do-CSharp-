@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using Dapper;
 using DataAcessDapper.Models;
 using Microsoft.Data.SqlClient;
@@ -15,18 +17,23 @@ namespace DataAcessDapper
 
             using (var connection = new SqlConnection(connectionString))
             {
-                //UpdateCategory(connection);                
-                //CreateCategory(connection);
-                //CreateManyCategories(connection);
-                //DeleteManyCategories(connection, "2398a209-7a8a-4805-aea7-c6f4a8db6196", "dd0d0723-02cd-4c67-987d-b6fdf9f3456b");
-                //UpdateManyCategories(connection, "ad914c09-b965-43fd-9b5d-a7f5c22e7dfe", "25d510c8-3108-44c2-86c5-924d9832aa8c");
-                //ListCategories(connection);
-                //GetCategory(connection, "25d510c8-3108-44c2-86c5-924d9832aa8c");
-                //ExecuteProcedure(connection);
-                //ExecuteReadProcedure(connection);
-                //ExecuteScalar(connection);
-                ReadView(connection);
-
+                // UpdateCategory(connection);                
+                // CreateCategory(connection);
+                // CreateManyCategories(connection);
+                // DeleteManyCategories(connection, "2398a209-7a8a-4805-aea7-c6f4a8db6196", "dd0d0723-02cd-4c67-987d-b6fdf9f3456b");
+                // UpdateManyCategories(connection, "ad914c09-b965-43fd-9b5d-a7f5c22e7dfe", "25d510c8-3108-44c2-86c5-924d9832aa8c");
+                // ListCategories(connection);
+                // GetCategory(connection, "25d510c8-3108-44c2-86c5-924d9832aa8c");
+                // ExecuteProcedure(connection);
+                // ExecuteReadProcedure(connection);
+                // ExecuteScalar(connection);
+                // ReadView(connection);
+                // OneToOne(connection);
+                // OneToMany(connection);
+                // QueryMultiple(connection);
+                // SelectIn(connection);
+                // Like(connection, "api");
+                Transaction(connection);
             }
         }
 
@@ -307,17 +314,236 @@ namespace DataAcessDapper
         // A partir daqui iremos entrar em alguns conteúdos mais avançados, especificamente o Mapeamento ou Mapping
 
         // Primeiro iremos começar com o relacionamento um para um. Lembra do INNER JOIN? Pois é. Vamos usar aqui
-        // É necessário criar os modelos que serão usados aqui. Podemos até fazer de forma anomima, porém isso pode ficar confuso pro Dapper, e futuramente muitos erros
+        // É necessário criar os modelos que serão usados aqui. Podemos até fazer de forma anomima, porém isso pode ficar confuso pro Dapper, e futuramente ocasionar muitos erros
         static void OneToOne(SqlConnection connection)
         {
             // No mundo real a gente n usa o asterisco no SELECT kkkkk ELe ta aparecendo aqui só pra exemplo mesmo
             var sql = @"SELECT * FROM [CareerItem] INNER JOIN [Course] ON [CareerItem].[CourseId] = [Course].[Id]";
-            var items = connection.Query(sql);
+
+            // Aqui iremos aprender a popular um objeto dentro do outro em uma Query. Se você for em Models, verá que o CareerItem tem um Curso como propriedade
+            // E como fazemos isso? Como na nossa query iremos fazer para povoar um objeto que está dentro de outro?
+            // Se colocarmos a query apenas como um tipo CareerItem, não poderemos chamar as própriedades de Course, pois a Query vai retorar apenas um CareerItem
+            // Mesmo que dentro do CareerItem tenha um curso, você deve trazer também o Course como tipo da query
+            // E para fazer isso, iremos segregar a query, colocar mais itens
+            // Sendo assim, podemos dizer que temos um CareerItem, e também um Course. E que o resultado final da junção desses dois, está dentro de um CareerItem
+            // Ou seja, primeiro você define os dois tipos de objetos que você quer retornar, e como ultimo argumento, você declara o objeto que contem os outros dois objetos anteriores. Do qual será o retorno final
+            // Query(ObjetoPai, ObjetoFilho, ObjetoRetornado)
+            var items = connection.Query<CareerItem, Course, CareerItem>(
+                sql,
+                // E dentro desse cenário, depois de passar a instrução SQL na query, devemos dizer pra ele qual função iremos usar (pois ele vai percorrer todos esses itens) para explicar como ele vai carregar um Course dentro de um CareerItem
+                // Iremos criar uma lambda expression que o seu retorno é um objeto
+                // Essa é a função que iremos utilizar paraexplicar como o CareerItem vai carregar um Course dentro dele
+                // Caso isso lhe deixe confuso, sobre a forma dessa função, recomendo ir no Youtube e pesquisar sobre lambda expressions
+                (careerItem, course) =>
+                {
+                    careerItem.Course = course;
+                    return careerItem;
+                    // E como passo final, devemos dizer onde um objeto se difere do outro, e isso faremos usndo o splitOn
+                    // Se o Id se repetir, o nome do campo Id, é melhor você usar um ALIAS ou vai ser uma bagunça
+                    // Lembrando que essa é a forma de se mapear um para um dentro do Dapper. Por detrás dos panos muita coisa acontece, e que não vem ao caso da gente saber aqui
+                    // Não coloque o campo do split entre chaves. Diferente das querys ou execute do sql que eceitam as chaves, ele vai dar um erro
+                }, splitOn: "Id");
 
             foreach (var item in items)
             {
+                Console.WriteLine($"{item.Title} - Curso: {item.Course.Title}");
+            }
+        }
+
+        // Agora iremos mostrar como se faz um relacionamento um para muitos
+        static void OneToMany(SqlConnection connection)
+        {
+            // Aqui não tem muito o que comentar, é apenas uma Quuery que retorna a carreira e os itens da carreira
+            // Se você for em Modes/Career.cs, pode ver que no como atributo de Career, temos uma lista de CareerItems
+            // E é justamente isso que iremos fazer, listar todos os itens de carreira presente no curso. Um para muitos
+            var sql = @"
+            SELECT 
+                [Career].[Id],
+                [Career].[Title],
+                [CareerItem].[CareerId],
+                [CareerItem].[Title] 
+            FROM 
+                [Career] INNER JOIN [CareerItem] ON [CareerItem].[CareerId] = [Career].[Id]
+            ORDER BY
+                [Career].[Title]           
+            ";
+
+            // Foi necessário externalizar a lista que iremos imprimir futuramente
+            // Pois caso isso não fosse feito, ele sempre iria criar uma carreira nova, com um item de carreira dentro dele
+            // E não iria conseguir linkar uma carreira e diversos itens de carreira
+            // Se dentro da função lambda do query fizessemos assim antes do retorno: career.CareerItems.Add(careerItems)...
+            // Esse seria o cenário onde não conseguiriamos assemelhar uma carreira a diversos itens
+            // Com essa lista de carreiras criada fora do items, podemos comparar sempre se o id do career do query é igual ao id do careers da nossa lista
+            var careers = new List<Career>();
+            // Esse passo é a mesma coisa do OneToOne. Query(ObjetoPai, ObjetoFilho, ObjetoRetornado)
+            // O Dapper não é tão inteligente no quesito de se trabalhar com One To Many. Abaixo não existe muito o que explicar, se você chegou até aqui...
+            // Passando por todos os códigos que eu disponibilizei, você vai entender bem o que está acontecendo
+            // E claro, estudado xD
+            var items = connection.Query<Career, CareerItem, Career>(
+                sql,
+                (career, careerItem) =>
+                {
+                    // Nesse código, basicamente iremos impedir que o nome da carreira se repita diversas vezes
+                    // Se você der um query no banco de dados com o sql acima, vai ver que a cada vez que vc chama um item da carreira, o nome da carreira também é printado
+                    // Ou seja, o nome da carreira vai se repetir diversas vezes, pois uma carreira possui diversos itens de carreira
+                    // Sendo assim, nesse código, iremos ver se o car é nulo. E claro, que na sua primeira iteração ele será nulo, pois nada foi gerado, sendo assim ele vai cair no if
+                    // Já na sua segunda iteração ele já não vai ser mais nulo, pois o car já tem uma carreira que foi guardada na lista criada logo acima
+                    // Sendo assim ele vai entrar no else, e adicionar apenas o item de carreira. 
+                    // E dai por diante. Esse processo vai se repetir, para cada carreira existente, para que assim, nossa query não fique poluida com muita informação desnecessária
+                    var car = careers.Where(x => x.Id == career.Id).FirstOrDefault();
+                    if (car == null)
+                    {
+                        car = career;
+                        car.CareerItems.Add(careerItem);
+                        careers.Add(car);
+                    }
+                    else
+                    {
+                        car.CareerItems.Add(careerItem);
+                    }
+                    return career;
+                }, splitOn: "CareerId");
+
+            foreach (var career in careers)
+            {
+                Console.WriteLine($"{career.Title}");
+                foreach (var item in career.CareerItems)
+                {
+                    Console.WriteLine($" - {item.Title}");
+                }
+            }
+        }
+
+        // Não existe relacionamento de muitos para muitos
+        // Na relação do SQL Server a gente move as chaves estrangeiras para uma tabela associativa. São dois SELECTs. E é assim que funciona o muitos para muitos no SQL Serve
+        // Não existe uma forma especifica como fizemos no um para um e no um para muitos
+
+        // Vamos aprender a fazer um QueryMultiple, que é basicamente uma forma de você fazer diversas queries de uma vez
+        // Imagina um cenário onde você tem um blog, que tem um post, e esse post tem uma categoria, e essa categoria tem muitos posts. Basicamente é nesse tipo de cenário que trabalhamos o muitos para muitos
+        // O Dapper tem uma função chamada de MultiSelect, então podemos executar multiplos selects dentro de uma query só
+        // E sim, dentro daqui você pode aplicar o OneToOne, OneToMany, qualquer query que você deseja realizar
+        static void QueryMultiple(SqlConnection connection)
+        {
+            var query = @"SELECT * FROM [Category]; SELECT * FROM [Course]";
+            using (var multi = connection.QueryMultiple(query))
+            {
+                var categories = multi.Read<Category>();
+                var courses = multi.Read<Course>();
+
+                foreach (var item in categories)
+                {
+                    Console.WriteLine(item.Title);
+                }
+
+                foreach (var item in courses)
+                {
+                    Console.WriteLine(item.Title);
+                }
+            }
+        }
+
+        // O Select in basicamente é como se fosse uma forma de retornar apenas as coisas que você passa pro parametro no IN
+        static void SelectIn(SqlConnection connection)
+        {
+            var query = "SELECT * FROM [Career] WHERE [Id] IN @Id";
+            var items = connection.Query<Career>(query, new
+            {
+                // Uma coisa interessante, é que quando botamos algo como array, significa que iremos executar aquele campo multiplas vezes
+                // Se eu transformo o new acima em uma array, ele iria executar a query multiplas vezes
+                // Mas como o new abaixo é que foi tipado como array, apenas esse campo vai ser executado mais de uma vez. Como se fosse um for percorrendo algo
+                Id = new[]
+                {
+                    "01ae8a85-b4e8-4194-a0f1-1c6190af54cb",
+                    "92d7e864-bea5-4812-80cc-c2f4e94db1af"
+                }
+            });
+
+            foreach (var item in items)
+            {
+                Console.WriteLine(item.Title);
+            }
+
+        }
+
+        // Lembra do LIKE que estudamos nos fundamentos de sql server? Aquele que você usa a porcentagem para exemplificar o que deseja?
+        // É exatamente o que iremos fazer agora
+
+        static void Like(SqlConnection connection, string term)
+        {
+            // Lembrando que algo dentro das porcentagens é contem, se você usa uma porcentagem a esquerda é começa com, e a direita, é tudo que termina com
+            // Contém = %teste%; Começa com %teste; Termina com = teste%
+            // A diferença é que aqui a gente não vai fazer isso direto no parametro
+            // Nunca concatene dentro da query. Lembra do problema do SqlInjection? Psé, é um prato cheio para isso
+            var query = "SELECT * FROM [Course] WHERE [Title] LIKE @exp";
+            var items = connection.Query<Course>(query, new
+            {
+                exp = $"%{term}%"
+            });
+
+            foreach (var item in items)
+            {
+                Console.WriteLine(item.Title);
+            }
+
+        }
+
+        // Trabalhando com Transactions
+        // Lembra do Transaction? Aquele comando que começa com BEGIN TRANSACTION e finaliza ou com um ROLLBACK OU COMMIT?
+        // É esse ai mesmo
+        static void Transaction(SqlConnection connection)
+        {
+            var category = new Category();
+            category.Id = Guid.NewGuid();
+            category.Title = @"Minha categoria que não quero salvar";
+            category.Url = "i-dont-want-to-save-this";
+            category.Summary = "Dont save!";
+            category.Order = 10;
+            category.Description = "Why are you trying to save this?";
+            category.Featured = false;
+
+            var insertSql = @"INSERT INTO
+                    [Category] 
+                VALUES(
+                    @Id, 
+                    @Title, 
+                    @Url, 
+                    @Summary, 
+                    @Order, 
+                    @Description, 
+                    @Featured)";
+
+
+            connection.Open();
+
+            // Aqui é como se a gente tivesse botando o BEGIN TRANSACTION na começo do código
+            using (var transaction = connection.BeginTransaction())
+            {
+                // Ao final do execute você tem que passar a transação
+                var rows = connection.Execute(insertSql, new
+                {
+                    category.Id,
+                    category.Title,
+                    category.Url,
+                    category.Summary,
+                    category.Order,
+                    category.Description,
+                    category.Featured
+                }, transaction);
+
+                // Se fizer um Rollback, ele vai desfazer essa transação
+                // E lembrando que o Rollback é sempre bom para se usar em um contexto de teste, onde você deseja saber se uma ação vai ser realizada
+                // Apesar de ele não realizar a ação, ele vai retornar se houve alteração, mas ao fim vai chamar o rollback e desfazer essa alteração
+                transaction.Rollback();
+                // Se deixarmos o Commit, ele vai salvar as alterações da transação
+                //transaction.Commit();
+
+                // Se você não colocar nada, nem rollback nem commit, ele não vai colocar nada, vai funcionar como o rollback. Mas né, melhor colocar tudo descrito bonitinho pra evitar buchos
+
+                Console.WriteLine($"{rows} - Linhas inseridas");
 
             }
+
+
         }
     }
 }
