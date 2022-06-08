@@ -1,0 +1,3 @@
+Dapper - version 2.0.90
+Dapper.Contrib - version 2.0.78
+Microsoft.Data.SqlClient - version 3.0.0

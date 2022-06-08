@@ -1,0 +1,3 @@
+- Estou disponibilizando o banco de dados que vai ser utilizado no Mão na Massa, em formato bacpac. Lembra que já falamos sobre como importar um arquivo bacpac pro Azure Data.
+- Eu recomendo você importar esse banco, olhar quais tabelas ele tem, anotar e depois você mesmo ir preenchendo ele. É sempre bom praticar. Porém, apenas uma recomendação xD
+- AH!! Crie um Database chamado Blog

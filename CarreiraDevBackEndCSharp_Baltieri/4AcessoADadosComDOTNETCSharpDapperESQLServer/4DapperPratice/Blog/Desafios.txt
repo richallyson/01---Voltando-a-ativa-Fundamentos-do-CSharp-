@@ -1,0 +1,17 @@
+== DESAFIOS DO BALTA == Fazer tudo isso criando uma tela, como a gente fez nas aulas de fundamentos
+
+- Cadastrar um usuário
+- Cadastrar um perfil
+- Vincular um usuário a um perfil
+
+- Cadastrar uma categoria
+- Cadastrar uma tag
+- Cadastrar um post
+- Vincunlar um post a uma tag
+
+- Listar os usuários (Nome, Email e perfis separados por virgula)
+- Listar categorias com quantidade de posts
+- Listar tags com quantidades de post
+- Listar os posts de uma categoria
+- Listar todos os posts com sua categoria
+- Listar os posts com suas tags (separados por virgula)

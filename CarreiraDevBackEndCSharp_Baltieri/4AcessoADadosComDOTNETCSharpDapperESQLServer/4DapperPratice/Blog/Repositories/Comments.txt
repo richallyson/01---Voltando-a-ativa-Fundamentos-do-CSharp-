@@ -1,0 +1,217 @@
+== REPOSITORIES / Repository Pattern ==
+
+- Usado para acessar dados
+- Repositório é uma unidade, uma forma única de acesso a dados que a gente tem, para cada uma das entidades
+- Na verdade ele não é especificamente para cada uma das entidades, isso não é uma verdade absoluta. Você pode um repositório que atende mais de uma entidade/modelo.
+- Porém no nosso mão na massa, a gente vai tomar por regra que pra cada uma dessas entidades ou modelos, a gente vai ter um repositório
+- Mas porquê a gente faz isso? Basicamente para evitar trabalho na frente. Se você centraliza a função de algo em um canto especifico, caso os objetos que ele trabalhe futuramente mudem algo, como os parametros, você vai apenas nesse arquivo centralizado para realizar a mudança. Ou seja, iremos encapsular ele dentro de uma classe, que depois será chamada quando for necessária ser usada
+- Então, básicamente iremos fazer um CRUD (Create, Read, Update, Delete) para cada entidade
+
+== COMO O CODIGO ERA ANTES - UserRepository.cs - Crie um novo arquivo.cs e cole esse código dentro dele para melhor visu ==
+
+using System;
+using System.Collections.Generic;
+using Blog.Models;
+using Dapper.Contrib.Extensions;
+using Microsoft.Data.SqlClient;
+
+namespace Blog.Repositories
+{
+    // Uma tipzinha pra relembrar. A nossa classe não pode ser estatica, pois ela não precisa ser instanciada, ela sobe junto com a aplicação
+    // E consequentemente os objetos dentro dela tbm não precisam ser estáticos. Pois o objetivo é chamar ela, passar o usuário para ela, e depois do retorno, tirar ela da memoria
+    public class UserRepository
+    {
+        private SqlConnection _connection = new SqlConnection("");
+        // Lembra que nas nossas aulas de Dapper, todas as nossas funções no Program.cs eram static void?
+        // Nesse nosso contexto, como disse acima, ela não pode ser static para não subir logo junto do programa, pois ela vai ser instanciada
+        // E nem pode ser void, pois queremos um retorno de um usuário. E o que você faz com esse retorno fica ao seu critério
+        // E o nosso retorno, vai ser justamente o que o connetion.GetAll retorna, que é um INumerable<User> ou seia, um inumerable de usuário
+        // Poderiamos usar um List ao invés de IEnumerabla, que é o mais robustod e todos. O IList que é a interface de List. Mas pro nosso caso...
+        // usaremos mesmo o IEnumerable, que é o tipo de lista pura do qual todos as outras listas derivam dele. E o IEnumerable basicamente só permite que a gente percorra a lista
+        // ENtão, pro nosso caso, o IEnumerable é perfeito
+        public IEnumerable<User> Get()
+        {
+            // É a mesma coisa daquele using que abre chaves, é apenas uma sintaxe nova do CSharp. Mas não vamos usar, só pra mostrar msm
+            //using var connection = new SqlConnection();
+            // Como o GetAll retorna um IEnumrable a gente pode retornar ele
+            return _connection.GetAll<User>();
+        }
+
+        // Quando temos apenas uma linha dentro das chaves, podemos eliminar ela e usar uma coisa que chamamos no Csharp de expressio body
+        // Basicamente um expression body é caracterizado por esse sinal => 
+        // E ao invés de você ter o return, você tem apenas a setinha
+        // Aqui basicamente temos uma função que retorna um User, que como parametro espera um id. E tudo dps do => é o retorno do que se pede
+        public User Get(int id) => _connection.Get<User>(id);
+
+
+        // Esse metodo não precisa retornar nada. Caso queira, bote o connection dentro de uma variavel
+        // O Insert retorna um long. Então ao invés de void bote long e dê retorno direto no connection
+        public void Create(User user)
+        {
+            _connection.Insert<User>(user);
+        }
+    }
+}
+
+== COMO O CODIGO ERA ANTES v2 - UserRepository.cs - Crie um novo arquivo.cs e cole esse código dentro dele para melhor visu ==
+
+using System.Collections.Generic;
+using Blog.Models;
+using Dapper.Contrib.Extensions;
+using Microsoft.Data.SqlClient;
+
+namespace Blog.Repositories
+{
+
+    // Esse código está aqui apenas para demonstração de como as coisas funcionariam caso a gente não fosse usar o Generics
+    // Porém, sempre use os generics para fazer o crud para os seus modelos. Todos possuem sempre algo em comum
+    // Em caso de especificidade, crie um repo especifico
+    // Esse código é obsoleto e n iremos usar em lugar nenhum, fica mesmo só pra estudo
+    // O Generics se encontra em Repository.cs
+    // No Comments.txt, leia a sessão como o código era antes
+    public class UserRepository
+    {
+        // Trazendo a conexão via construtor, vai evitar que diversas conexões sejam abertas
+        // Não teremos apenas um repository, teremos uma para cada modelo que temos no nosso banco
+        // Sendo assim, imagina um cenário onde você iria abrir conexão toda vez que fosse chamar um repository?
+        // Bem, isso ia entupir seu banco, fazendo com que ele fique lento. Passando a conexão por construtor...
+        // Você vai estar compartilhando a conexão entre todos os seus repositórios e evitando a abertura de divesas conexões
+        // E para ver na prática basta ir pro Program.cs
+        private readonly SqlConnection _connection;
+        public UserRepository(SqlConnection connection) => _connection = connection;
+
+
+        public IEnumerable<User> Get() => _connection.GetAll<User>();
+
+        public User Get(int id) => _connection.Get<User>(id);
+
+        public void Create(User user)
+        {
+            user.Id = 0;
+            _connection.Insert<User>(user);
+        }
+
+        public void Update(User user)
+        {
+            if (user.Id != 0)
+                _connection.Update<User>(user);
+        }
+
+        public void Delete(User user)
+        {
+            if (user.Id != 0)
+                _connection.Delete<User>(user);
+        }
+
+        public void Delete(int id)
+        {
+            if (id != 0)
+                return;
+
+            var user = _connection.Get<User>(id);
+            _connection.Delete<User>(user);
+        }
+    }
+}
+
+== COMO O CODIGO ERA ANTES - Program.cs - Crie um novo arquivo.cs e cole esse código dentro dele para melhor visu ==
+
+using System;
+using Blog.Models;
+using Dapper.Contrib.Extensions;
+using Microsoft.Data.SqlClient;
+
+namespace Blog
+{
+    // Iremos utilizar o Dapper.Contrib nesse mão na massa, que é uma paradinha que facilita muito a nossa vida
+    // Vou evitar ficar explicando código aqui no mão na massa. No máximo digito uma linha bem resumida sobre algo, quando necessário
+    // Afinal, se você já chegou até aqui, tem um bom conhecimento e basicamente tudo o que está sendo feito aqui já foi aplicado
+    class Program
+    {
+        private const string CONNECTION_STRING = @"Server=localhost,1433;Database=Blog;User ID=sa;Password=1q2w3e4r@#$";
+        static void Main(string[] args)
+        {
+            //ReadUsers();
+            //ReadUser(1);
+            //CreateUser();
+            //UpdateUser();
+            DeleteUser();
+
+        }
+
+        public static void ReadUsers()
+        {
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                var users = connection.GetAll<User>();
+
+                foreach (var user in users)
+                {
+                    Console.WriteLine(user.Name);
+                }
+            }
+        }
+
+        public static void ReadUser(int id)
+        {
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                // O get sempre vai esperar um Id
+                var user = connection.Get<User>(id);
+                Console.WriteLine(user.Name);
+            }
+        }
+
+        public static void CreateUser()
+        {
+            var user = new User()
+            {
+                Name = "Griffith",
+                Email = "grifisu@berserk.jp",
+                PasswordHash = "grifisu",
+                Bio = "The Savior",
+                Image = "https://...",
+                Slug = "grifisu"
+            };
+
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                // O Insert vai retornar um long, com as linhas afetadas. Caso queira printar isso, bote o insert dentro de uma variavel
+                connection.Insert<User>(user);
+                Console.WriteLine("Cadastro realizado com sucesso!");
+            }
+        }
+
+        public static void UpdateUser()
+        {
+            // No update precisa passar o Id
+            var user = new User()
+            {
+                Id = 2,
+                Name = "Grifisu",
+                Email = "grifisu@berserk.jp",
+                PasswordHash = "grifisu",
+                Bio = "The Savior or Not",
+                Image = "https://...",
+                Slug = "grifisu"
+            };
+
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                connection.Update<User>(user);
+                Console.WriteLine("Atualização realizada com sucesso!");
+            }
+        }
+
+        public static void DeleteUser()
+        {
+            using (var connection = new SqlConnection(CONNECTION_STRING))
+            {
+                // Pegamos o usuário do banco e passamos esse usuário dentro do delete
+                var user = connection.Get<User>(2);
+                connection.Delete<User>(user);
+                Console.WriteLine("Exclusão realizada com sucesso!");
+            }
+        }
+    }
+}

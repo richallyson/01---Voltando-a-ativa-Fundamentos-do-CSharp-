@@ -77,13 +77,13 @@
 //                 Console.WriteLine($"{rows} - Linhas inseridas");
 
 //                 // Fazendo o Depara
-//                 // A função .Query é um IEnumerable de tipos dinamicos, sendo assim o Dapper permite que a gente já pode tipar qual o tipo de objeto..
+//                 // A função .Query é um IEnumerable de tipos dinamicos, sendo assim o Dapper permite que a gente já possa tipar qual o tipo de objeto..
 //                 // ela vai retornar, no nosso caso, queremos uma lista de categorias
 //                 // Apenas com essa linha de código, ele vai no banco, vai executar a conexão, vai executar a query pra gente...
 //                 // e já vai trazer as categorias
 //                 // Lembrando que o objeto criado tem que ter os mesmos campos da tabela do banco, inclusive com os mesmos nomes e tipos
-//                 // Se por algum acaso você tenha que mudar para português ou para outro nome o parametro do objeto, use o alias referênciando isso
-//                 // Você a invés de chamar o Id de Id no objeto chama de código, mas quando for dar o select, tem que chamar primeiro o [Id] e passar o nome do parametro que você botou como Alias
+//                 // Se por algum acaso você tiver que mudar o nome dos campos para português ou para outro nome o parametro do objeto, use o alias referênciando isso
+//                 // Ao invés de chamar o Id de Id no objeto chama de código, mas quando for dar o select, tem que chamar primeiro o [Id] e passar o nome do parametro que você botou como Alias
 //                 //var categories = connection.Query<Category>("SELECT [Id] AS [Codigo], [Title] AS [Titulo] FROM [Category]");
 //                 var categories = connection.Query<Category>("SELECT [Id], [Title] FROM [Category]");
 
