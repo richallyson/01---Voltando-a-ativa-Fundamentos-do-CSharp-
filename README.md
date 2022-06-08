@@ -32,10 +32,10 @@ Domine os fundamentos de um dos mais populares bancos de dados do mundo, o SQL S
 #### Práticas realizadas:
 * Banco de dados da plataforma de cursos do Balta
 
-## Acesso à dados com .NET, C#, Dapper e SQL Server (43%) - Curso 2806
-Aprenda a se conectar ao SQL Server e executar queries de forma otimizada, performática e segura.
+## Acesso à dados com .NET, C#, Dapper e SQL Server (100%) - Curso 2806
 
-* Ainda não foi realizada a prática, estou aprendendo os conceitos ensinados nas aulas
+#### Práticas realizadas:
+* Criando um banco de dados, acesso a dados com o Dapper realizando todas as operações de CRUD e One To Many com o Dapper.Contrib.
 
 ## Modelando Domínios Ricos (100%) - Curso 1975
 Sabendo os fundamentos e a criação de APIs com ASP.NET, chegou a hora de mover seu código para um próximo nível, aprendendo conceitos como SOLID e Clean Code na prática.
