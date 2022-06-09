@@ -10,8 +10,9 @@
 - Vincunlar um post a uma tag ✓
 
 - Listar os usuários (Nome, Email e perfis separados por virgula) ✓ (Não fiz separado por virgula pq fica feio kkkkk)
-- Listar categorias com quantidade de posts
-- Listar tags com quantidades de post 
-- Listar os posts de uma categoria
-- Listar todos os posts com sua categoria
-- Listar os posts com suas tags (separados por virgula) ✓
+- Listar categorias com quantidade de posts ✓
+- Listar tags com quantidades de post ✓
+- Listar os posts de uma categoria ✓
+- Listar todos os posts com sua categoria ✓
+- Listar os posts com suas tags ✓
+

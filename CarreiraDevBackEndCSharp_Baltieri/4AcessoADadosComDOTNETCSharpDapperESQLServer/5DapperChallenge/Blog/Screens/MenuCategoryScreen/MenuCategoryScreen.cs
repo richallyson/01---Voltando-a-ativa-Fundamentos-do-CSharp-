@@ -13,7 +13,9 @@ namespace Blog.Screens.MenuCategoryScreen
             Console.WriteLine("2 - Listar Categorias");
             Console.WriteLine("3 - Atualizar Categoria");
             Console.WriteLine("4 - Deletar Categoria");
-            Console.WriteLine("5 - Voltar ao menu principal");
+            Console.WriteLine("5 - Listar quantidade de posts pro categoria");
+            Console.WriteLine("6 - Listar todos os posts de uma categoria");
+            Console.WriteLine("7 - Voltar ao menu principal");
             Console.WriteLine("");
             Console.Write("Digite a sua escolha: ");
             var option = short.Parse(Console.ReadLine()!);
@@ -24,7 +26,9 @@ namespace Blog.Screens.MenuCategoryScreen
                 case 2: ListCategoryScreen.Load(); break;
                 case 3: UpdateCategoryScreen.Load(); break;
                 case 4: DeleteCategoryScreen.Load(); break;
-                case 5: Program.Load(); break;
+                case 5: ListCategoriesWithPostQuantityScreen.Load(); break;
+                case 6: ListPostsOfACategoryScreen.Load(); break;
+                case 7: Program.Load(); break;
                 default: Load(); break;
             }
         }

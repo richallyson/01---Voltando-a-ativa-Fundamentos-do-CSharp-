@@ -21,12 +21,16 @@ namespace Blog.Screens.MenuUserScreen
 
         private static void List()
         {
-            var repository = new Repository<User>();
-            var users = repository.Get();
+            var repository = new UserRepository();
+            var users = repository.GetUsersWithRole();
 
             foreach (var user in users)
             {
-                Console.WriteLine($"{user.Name} - {user.Bio} ({user.Slug})");
+                Console.WriteLine($"{user.Name} - {user.Email})");
+                foreach (var role in user.Roles)
+                {
+                    Console.WriteLine($"- {role.Name}");
+                }
             }
 
         }
