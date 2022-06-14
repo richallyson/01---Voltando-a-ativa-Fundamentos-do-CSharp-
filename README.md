@@ -35,7 +35,12 @@ Domine os fundamentos de um dos mais populares bancos de dados do mundo, o SQL S
 ## Acesso à dados com .NET, C#, Dapper e SQL Server (100%) - Curso 2806
 
 #### Práticas realizadas:
-* Criando um banco de dados, acesso a dados com o Dapper realizando todas as operações de CRUD e One To Many com o Dapper.Contrib.
+* Criação um banco de dados, acesso a dados com o Dapper realizando todas as operações de CRUD e One To Many com o Dapper.Contrib.
+
+## Fundamentos do Entity Framework (19%) - Curso 2808
+
+#### Práticas realizadas:
+* Em andamento.
 
 ## Modelando Domínios Ricos (100%) - Curso 1975
 Sabendo os fundamentos e a criação de APIs com ASP.NET, chegou a hora de mover seu código para um próximo nível, aprendendo conceitos como SOLID e Clean Code na prática.
