@@ -1,0 +1,57 @@
+= FUNDAMENTOS DE ENTITY FRAMEWORK = 
+
+Objetivo do curso:
+- Conhecer do zero o que é o Entity Framework
+- Mapeamento (mesmo conceito de mapeamento onde a gente assemelha um objeto a algo numa tabela do banco)
+- Relacionamentos (One to One, One to Many, etc)
+- CRUD (Vamo prograr um CRUD, pq é assim que nós aprende xD)
+- Migrations (Como gerar um banco a partir do código?)
+- Performance
+
+Ferramentas:
+- SO Windows, Mac ou Linux
+- .NET 5 ou superior
+- Azure Data Studio
+- SQL Server
+- Visual Studio Code
+
+= SOBRE O ENTITY FRAMEWORK =
+- Trabalha com ORMs (Object/Relational Mapping), que básicamente é a mesma coisa que fizemos no curso anterior, onde fazemos um depara de uma tabala para um objeto, e que para isso é necessário fazer a relação através de notações ou outros métodos. 
+- Diferente do dapper que é uma biblioteca, o entity framework é um conjunto de bibliotecas. Sendo assim ele é bem mais poderoso que o dapper, porém, é mais complexo e "pesado" (pesado não no quesito de performance, mas sim no de tamanho mesmo).
+- Permite trabalhar com CRUD e Migrações.
+- Se seu projeto for simples, use Dapper, se for complexo, use Entity.
+- A facilidade que o Entity trás para projetos maiores, cobrem possiveis gaps com performance.
+- Você não precisa ficar escrevendo query pra tudo, e muito menos ir no banco fazer as coisas (claro que tem contextos que você talvez tenha que fazer isso)
+- Migração basicamente permite que a gente crie um banco a partir do nosso modelo, do nosso código.
+- Existem duas abordagens quando trabalhamos com EF (vou chamar assim agora para facilitar, mas é a abreviação para Entity Framework), e elas serão descritas abaixo.
+
+1) Abordagem Database First:  
+- O banco já está feito
+- Mapeamos o que existe para novos objetos criados
+- Este cenário se chama de Brown Field. É como se o campo já tivesse sido trabalhado, e está um caos, cheio de lama. Nesse cenário o banco já existe. E iremos apenas fazer o mapeamento. Mas claro que o mapeamento é presente nas duas abordagens
+
+2) Abordagem Code First
+- Também conhecida como Model First
+- Começamos pelo código
+- Geramos o banco automaticamente via Migrations
+- Modelo amplamente usado
+- Este cenário se chama de Green Field. Não existe um banco, está tudo verdinho, pronto para capinar e plantar. Ou seja, iremos começar primeiro codando e depois gerar esse banco de forma automática a partir do nosso código.
+- A gente garante que o banco sempre está atualizado com o nosso código.
+- Se fizermos uma alteração no nosso código, será gerada uma migração, essa migração vai gerar um script de banco e a gente vai aplicar esse script no banco.
+- Quando usamos essa abordagem, a gente tende a ter o banco de dados como um repositório de dados.
+
+= O QUE O ENTITY FRAMEWORK REPRESENTA PARA A NOSSA APLICAÇÃO? =
+- O EF trabalha ao redor de um único arquivo.
+- Na verdade você pode ter vários desses arquivos do Data Context, mas o EF se baseia todo ao redor de contextos. Mas o que é um Data Context?
+- É um objeto que o EF precisa, que como dito acima, é o único arquivo ou objeto que o EF precisa. (Claro que ele precisa dos models)
+- Ou seja, criando um Model e criando um Data Context a gente já consegue dar o start na aplicação e ter um CRUD ali, mesmo sem mapear nada. 
+- O Data Context define o banco de dados em memória. Ele é basicamente a representação do nosso banco de dados só que do lado da nossa aplicação, ou seja, está em memória, não está nada escrito no banco.
+- Isso é ótimo para performance, pois como já vimos no curso de Dapper, que quanto mais a gente vai no banco para ler ou escrever algo, mais performance estamos deixando de lado. E com o Data Context em memória e não no banco, a necessidade de ir ao banco não existe, podemos fazer tudo em memória, que é bem mais rápida que um disco. 
+- Ou seja, trazemos tudo para a memória e só iremos persistir as coisas no banco na hora que a gente precisar, vai tudo de uma vez.
+- O Data Context é composto de subconjuntos, que podem ser chamadas de propriedades, já que o DC (vou chamar assim pra economizar tempo) é um objeto.
+- Essas diversas propriedades são chamadas de DbSet ou DataBaseSet. Um DbSet é um conjunto de dados do banco
+- Basicamente o DbSet vai representar as nossas tabelas
+
+E bem, pra tudo ficar mais legal de ser visto, vamos pro código! Até já.
+
+Ps: o banco que iremos utilizar para esse curso é o mesmo utilizado no curso passado, o Blog. Então, se você veio direto pra cá, vá na pasta do curso de Dapper, que em um documento com o mesmo nome desse vai ter explicando direitinho como instalar ele.

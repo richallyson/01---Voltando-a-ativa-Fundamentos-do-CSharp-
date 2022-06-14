@@ -1,0 +1,7 @@
+Se você viu o curso de Dapper vai saber de tudo o que estamos fazendo aqui ou pelo menos da maior parte do contéudo. Abaixo segue o que iremos fazer em ordem cronologica
+
+1 - Criar os modelos
+2 - Instalar o pacote do Entity Framework Core (dotnet add package Microsoft.EntityFrameworkCore --version 5.0.9)
+3 - Instalar o pacote do EFC Sql Server (dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.9)
+4 - Criar o DataContext e os DbSet
+5 - Fazer o CRUD
