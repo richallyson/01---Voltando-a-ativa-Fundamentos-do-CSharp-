@@ -37,10 +37,15 @@ Domine os fundamentos de um dos mais populares bancos de dados do mundo, o SQL S
 #### Práticas realizadas:
 * Criação um banco de dados, acesso a dados com o Dapper realizando todas as operações de CRUD e One To Many com o Dapper.Contrib.
 
-## Fundamentos do Entity Framework (19%) - Curso 2808
+## Fundamentos do Entity Framework (100%) - Curso 2808
+Aprenda a extrair o melhor da performance e produtividade do Entity Framework, o ORM mais popular do mercado
 
 #### Práticas realizadas:
-* Em andamento.
+* Crud
+* Mapeamento usando DataAnnotations
+* Mapeamento usando FluentMapping
+* Criando um banco via Migrations e geração de script SQL via Migrations
+* Práticas de performance
 
 ## Modelando Domínios Ricos (100%) - Curso 1975
 Sabendo os fundamentos e a criação de APIs com ASP.NET, chegou a hora de mover seu código para um próximo nível, aprendendo conceitos como SOLID e Clean Code na prática.
