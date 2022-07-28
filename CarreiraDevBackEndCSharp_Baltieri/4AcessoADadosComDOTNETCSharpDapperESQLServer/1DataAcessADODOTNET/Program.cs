@@ -38,6 +38,7 @@ namespace DataAcess
                 // Ele é usando também dentro de um using, pois pode deixar vestigios, e dentro do using ao terminar de ser usado já é dado um dispose
                 using (var command = new SqlCommand())
                 {
+                    // IR NISSO AQUI PARA DESCREVER PARA QUE SERVER CADA COMANDOZINHO DESSE AQUI ABAIXO ASSIM COM OUTRAS COISAS
                     command.Connection = connection;
                     command.CommandType = System.Data.CommandType.Text;
                     command.CommandText = "SELECT [Id], [Title] FROM [Category]";

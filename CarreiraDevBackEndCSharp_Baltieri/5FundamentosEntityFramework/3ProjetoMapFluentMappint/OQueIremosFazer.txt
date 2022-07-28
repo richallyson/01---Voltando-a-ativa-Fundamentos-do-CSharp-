@@ -1,4 +1,4 @@
-Aqui eu irei falar sobre os temas importantes que serão trabalhados dentro dessa parte do curso, assim como também explicar algumas coisas básicas sobre mapeamento. E apesar de eu estar explicando sobre o FluentMapping aqui, iremos trabalhar ele apenas no outro modulo. Nesse iremos focar no mapeamento através de notações, ou seja DataAnnotations. É extremamente importante fazer um bom mapeamento, ainda mais em um cenário onde a gente vai criar o banco através de Migrations (que vai ser mais explicado a frente). Se você não faz as notações corretas, o banco vai ser gerado de forma pobre, sem definição de nada.  
+Depois te trabalhar com o mapeamento através de anotações, agora iremos trabalhar com o Fluent Mapping. Lembrando que caso seu projeto seja pequeno, vale mais a pena usar mesmo notações, porém, quando seu projeto começa a ter um escopo maior, o recomendado é usar o fluent mapping por causa da sua flexibilidade. Ele permite que tenhamos uma divisão de responsabilidade muito maior, como por exemplo, que a gente consiga separar muito bem, o que é do entity framework, com o que é core (o que é compartilhado entre as nossas aplicações). Quando a gente começa a desenvolver aplicações que são para multiplos dispositivos, existe uma necessidade de separar a aplicação do entity framework, e isso é feito através dos fluent maps. A ideia dos mapeamentos é fazer a mesma coisa que as anotações, porém feito de uma forma diferente, pois usamos um esquema chamado de FluentAPI, que básicamente é uma codificação mais explicita. E bora começar! A magia acontece dentro da pasta Data/Mapping 
 
 = Mapeamento
 - Dê/Para
@@ -14,20 +14,9 @@ Aqui eu irei falar sobre os temas importantes que serão trabalhados dentro dess
   - Não "polui" a classe principal
   - Não cria dependências na classe/projeto principal
 
-- DataAnnotations
-  - Servem para gerar metadados sobre as nossas classes, basicamente estamos gerando info adicional sobre ela, mas não alterando o seu funcionamento. O Fluent tbm gera essas metadados, mas sem usar a notação, como por exemplo o [Table("NomeDaTabela")]
-  - Feitos diretamente na classe
-  - Mais simples e diretos
-  - Dependem do System.ComponentModel.DataAnnotations
-  - Alguns dependem também do Microsoft.EntityFrameworkCore 
-  - Mas pq usar dependencias é ruim? Bem, imagina que você vai lançar um pacote, e usou DataAnnotations nele. Obrigatoriamente, a pessoa que for instalar esse seu pacote, tem de instalar o EntityFramework, mesmo que não vá usar nada dele, para conseguir usar as notações que você criou dentro do código do seu pacote. Porém, se seu projeto n precisa ser compartilhado com outros, ta tudo bem usar as notações
-  - Muito bons para projetos simples e pequenos
-  - Poluem muito a classe quando temos objetos maiores e coisas mais complexas
-
-- Table, Key, Identity
-- Required, MaxLenght e Column
-- Navigation Properties
-- Trabalhando com Sub Conjuntos
-- Include
-- Log
-- Alterando Subconjunto
+- Primary Key and Identity
+- Mapeando propriedades
+- Indices
+- Default Values
+- Relacionamento um para muitos
+- Relacionamento muitos para muitos

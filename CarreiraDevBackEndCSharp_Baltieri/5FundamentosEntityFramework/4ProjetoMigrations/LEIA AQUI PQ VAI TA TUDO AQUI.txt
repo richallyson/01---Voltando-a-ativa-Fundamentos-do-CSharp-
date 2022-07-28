@@ -1,0 +1,88 @@
+Vamo fazer a famigerada Migration. Criar um banco de dados a partir do código, bonitinho, mapeado e cheirosinho. E se liga que a partir de um certo ponto vai ser você olhando pra cá, pro código csharp e pro banco. E outra coisa. Use a pasta blog, blog2 e blog3 fica pra quando a gente for trabalhar com atualização do banco via migrations
+
+== LISTA DE COMANDOS USADOS ==
+
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.9
+dotnet tool install --global dotnet-ef --version 5.0.10
+dotnet ef migrations add InitCreation
+dotnet ef database update
+dotnet ef migrations script -o ./script.sql
+
+= INTRODUÇÃO
+
+E bem, como que as Migrações funcionam no Entity Framework? Bem, dado um mapeamento, seja ele através de FluentMapping ou DataAnnotations, a gente é capaz de gerar um banco de dados usando o EF. Ou seja, tudo por código, sem precisar escrever sql, apenas no csharp da galera. Consequentemente a gente vai ganhar muito tempo com isso. Porém, se a gente só criar as classes e mandar o EF gerar o banco, ele vai gerar duma forma bem ruim. Por isso, novamente, os mapeamentos são os bixão que vão fazer o nosso banco ser criado de forma organizada e bonitinha.
+
+Antes de tudo, a gente vai precisar instalar um pacote do EF para tudo ocorrer bem (na real, sem ele não da pra fazer a migração, pois ele é responsável justamente por fazer isso no nosso projeto), que é feito através do comando: dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.9
+
+E bem, pra isso a gente vai precisar instalar uma ferramenta chamada dotnet-ef através do comando: dotnet tool install --global dotnet-ef --version 5.0.10
+
+No nosso caso estamos usando a mesma versão que o balta usou, sem o --version ele vai instalar a ultima versão do dotnet-ef.
+
+E depois de ter a ferramenta instalada a gente pode executar o comando: dotnet ef. E ao usar esse comando, vai aparecer um menu com um unicornio, mostrando que a parada ta funcionando perfeitamente.
+
+E lembrando, tem que ta na pasta blog pra que tudo funcione.
+
+Depois de ver o unicornio do menu do dotnet ef, a gente vai usar o comando dotnet clean, para limpar a nossa solução e deixar o ambiente cheirosinho. Depois dê um dotnet build pra compilar a nossa aplicação. E se der algum erro no build ou no clean, reveja o código, pois tem algo errado.
+
+= CRIANDO UMA MIGRAÇÃO
+
+E agora a gente vai pra magia do Migrations. Vamos criar uma migração, e para isso vamos usar o comando: dotnet ef migrations (e dentro desse comando a gente tem o add e o remove, que faz justamente o que o nome diz, podendo ficar assim: dotnet ef migrations add. Ou assim: dotnet ef migrations remove). No nosso caso, como queremos criar um banco com migrations, usaremos e o add, e logo após o add iremos botar o nome do arquivo que a gente deseja gerar, ficando assim: dotnet ef migrations add InitCreation. Você pode colocar qualquer nome nesse arquivo.
+
+Após isso, ele vai criar uma pasta chamada Migrations no nosso projeto da qual dentro dele temos três arquivos. Eles são gerados pelo nosso querido EF. E claro, não altere eles, deixa os bixin lá, quietin na deles. O arquivo BlogDataContextModelSnapshot.cs, presente na pasta gerada, faz o relacionamento do banco pra gente, cria as tabelas baseado nos nossos modelos e mapeamentos feitos. Esse arquivo é gerado no momento que digitamos o código dotnet ef migrations add InitCreation, e geramos a migração. Depois disso o EF foi vai banco, utilizando a connection string que informamos no DataContext.cs, busca o database Migrations (nome do novo banco que eu botei), vê que esse banco não existe, e fala: vish, não existe esse banco, então preciso gerar as tabelas pra poder criar ele. E a partir dai o nosso arquivo BlogDataContextModelSnapshot.cs é gerado com tudo o que a gente falou acima.
+
+Os outros dois arquivos, o 20220726201754_InitialCreation.cs e o 20220726201754_InitialCreation.Designer.cs são os arquivos que o EF usa para gerar o script SQL, pra ser aplicado no banco. E novamente, vai fazer tuuuuuudo baseado no mapeamento que a gente fez.
+
+Antes da gente aplicar tudo no banco, vale ressaltar que Snapshot é basicamente uma foto do banco. Então, da pra gente tirar essa foto de um banco já existente. Ou seja, poderiamos deixar uma connection string para um banco que já existe, usar o comando dotnet ef migrations add (nome), que ele iria criar pra gente aquela pasta Migrations trazendo um snapshot de tudo o que tem no banco, através de código csharp. Porém, isso pode ser perigoso, caso o banco não esteja perfeitamente organizado.
+
+= ATUALIZANDO O BANCO 
+
+E agora, vamos aplicar tudo isso no banco e vê como a parada funciona. Tudo o que foi feito antes foi apenas para gerar o Migrations para gente, do qual, a partir de agora, vai ser mandado para o nosso banco, para criar o nosso novo database. E para isso a gente vai usar o comando: dotnet ef database update 
+
+Com esse comando, ele vai pegar as nossas migrações, criadas a partir do nosso mapeamento, e aplicar no banco. Vale ressaltar que o arquivo de Snapshot controla a versão que ta a migração no banco. E o comando update é justamente para atualizar (ou criar) essa nova versão do banco.
+
+E bem, depois de executar o comando acima, o nosso banco foi criado. Pode ir no banco e ficar feliz como eu fiquei. Ele cria todas as tabelas bonitinhas, inclusive as de relacionamento, como a UserRole. Assim como também uma tabela nova chamada de EFMigrationsHistory, que serve justamente para para ter um histórico de Migrations que a gente criou, e que foram aplicadas no banco. Ou seja, se você fizer uma Migration nova e aplicar no banco já existente, ele vai adicionar conteúdo a essa tabela informando o que foi aplicado. E toda vez que a gente tiver uma migração pendente, é só rodar o comando dotnet ef database update, que ele vai atualizar o nosso banco.
+
+Uma curiosidade. Caso você tenha feito uma migration com nome errado, ou mesmo tenha criado uma e não tenha feito nada, basta você usar o comando dotnet ef migrations remove, que ele vai remover a ultima migration criada.
+
+= GERANDO NOVA VERSÃO DO BANCO
+
+Bem, como eu disse, quando não temos o banco criado, o migrations vai criar um Snapshot pra gente de tudo o que a gente mapeou, e depois através do update a gente vai criar o nosso banco. Agora iremos adicionar algo aos nossos modelos e mapeamentos, e novamente fazer um migration para atualizar o nosso banco que já existe. Agora sim, pode fechar o projeto Blog e abrir o projeto Blog2. Nele iremos adicionar uma nova propriedade ao modelo User, chamada de: public string Github { get; set; }. Logo após isso iremos mapear essa propriedade dentro do UserMap. Caso você tente criar um usuário ou fazer qualquer coisa com o Usuário, vai acontecer um erro pois ainda não geramos uma nova versão do banco com essa propriedade atualizada. A partir do momento que trabalhos com Migration, é sempre necessário atualizar o nosso banco quando fizermos mudanças no nosso código. Sempre!
+
+E para a gente criar essa nova versão do banco, a gente chama novamente o nosso amigo dotnet ef migrations add (Nome da mudança). Que no nosso caso vai ficar assim: dotnet ef migrations add AddingANewPropGitHubToUser
+
+Depois de criada a migração, a gente roda novamente o dotnet ef database update. Logo depois de executar o comando, ele dois arquivos novos com o nome do Migration feito na pasta migration, assim como também, atualizar o arquivo Snapshot. Assim como também, vai atualizar essa nova propriedade dentro do nosso banco, atualizando a tabela User. 
+
+E agora, você pode realizar comandos dentro do User, sem se preocupar com erro, pois o nosso banco está totalmente atualizado. Pois como eu disse, a partir do momento que trabalhamos com Migration, sempre é necessario estar com o banco atualizado para se trabalhar com ele.
+
+E em caso a gente não queira mais essa propriedade nova no User, basta dar um dotnet ef migrations remove, que ele vai removar a ultima migration feita. E logo depois disso, atualizar o nosso banco através de um dotnet ef database restore, para atualizar o banco.
+
+E lembrando que a gente também pode trabalhar com o esquema FowardOnly (somente pra frente), onde a gente sempre vai ta avançando, sem voltar a versões passadas do banco. E em um contexto que você deseja remover apenas uma coisa especifica do banco, como a propriedade GitHub. Nesse caso, a gente removeria essa propriedade no código, tanto no modelo como no map, criaria uma nova migração com o add, e depois atualizava. Dessa forma você não vai vai voltar uma versão toda, mas apenas alterar(remover) algo que não é mais necessário.
+
+E caso a gente não queira mais trabalhar com Migrations, o que deve ser feito? Primeiro, você deve deletar a pasta Migrations, que é gerada pelo Migrations (kkkkk), e depois você tem que ir no banco e dar um DROP TABLE na table gerada pelo Migrations, que no caso, seria esse comando: DROP TABLE __EFMigrationsHistory. Dessa forma, o seu projeto não vai mais trabalhar com Migrations, e assim não vai mais ser necessário sempre que fizer uma mudança, ficar atualizando o banco. Inclusive, você pode remover o pacote EntityFrameworkCore.Design, que é usado apenas para gerar as migrações.
+
+= GERANDO SCRIPT DO BANCO
+
+A partir daqui iremos usar a pasta blog 3. Então fecha a blog 2 e da um "code ." na blog 3 que iremos ver como se gera um script sql através da migrations. 
+
+Nesse nosso cenário a gente não tem conexão com o banco de dados, a gente não pode realizar ações dentro dele, mas temos de gerar um script sql através do migrations para passar para um terceiro que vai usar esse script no banco para gerar alguma tabela. Nesse cenário a gente deletou o nosso banco criado acima, assim como também a pasta migration gerada automaticamente quando usamos o add, a única coisa que a gente fez foi gerar a migration através do dotnet ef migrations add InitCreation. 
+
+E bem, como eu disse, a gente não tem acesso a ações dentro do banco, apenas a ações dentro de código csharp, mas queremos gerar um script sql dos mapeamentos que fizemos, para pessoa responsável por manejar o banco atualizar o banco. Seja para adicionar novas tabelas ou remover as mesmas (a gente não usou o dotnet ef database update pois nesse cenário não temos acesso a conexão do banco). Para isso, para gerar um script sql através de uma migration a gente usa o comando: dotnet ef migrations script -o ./script.sql
+
+Nesse comando, depois da palavra script, especificamos o local onde o arquivo iria ficar, e também o seu nome. E após executar o comando, ele vai criar um arquivo com esse nome que escolhemos, onde dentro dele, vai ter todo o script sql que foi feito em código csharp através do FluentMapping, para criar o banco de dados que estamos trabalhando.
+
+Com esse script em mãos a gente vai copiar ele todo, abrir o nosso Azure Data (que ta sempre aberto kk) e colar esse script lá, e dar um run. Mas antes disso, a gente precisa criar o nosso database na mão, pois o migrations não trás esse trecho de script pra gente. Pra isso basta a gente usar o script abaixo:
+
+CREATE DATABASE [Migrations]
+GO
+
+USE [Migrations]
+GO
+
+(Colar o script gerado pelo migrations)
+
+Após isso basta a gente da um run no Azure que ele vai criar o banco pra gente um banco do mesmo jeito que foi feito dentro do nosso código csharp usando o FluentMapping.
+
+E um lembrete final para quando você for trabalhar com migrations. Sempre que for fazer uma atualização do banco, seja por database update ou por geração de script, sempre vá por passos pequenos. Não deixe para fazer isso depois de diversas migrações. Sempre atualize ela, para evitar problemas futuros. Ou seja, faça pouco e atualize, para que assim o Migrations seja o seu melhor amigo e não o seu pior inimigo.
+
+
+
