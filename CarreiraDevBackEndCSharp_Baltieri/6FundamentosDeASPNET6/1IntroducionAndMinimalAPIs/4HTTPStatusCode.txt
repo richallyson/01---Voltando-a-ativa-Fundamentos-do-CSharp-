@@ -1,0 +1,10 @@
+- E bem, pra fechar essa parte do HTTP, uma requisição é sempre dividida em duas partes. Onde uma são os Headers, que são os cabeçalhos da requisição, e o Body da requisição, o corpo da requisição.
+- Ambos podem ser vistos dentro do Postman
+- O retorno das requisições sempre traz um Status pra gente. E esse status tem um código, ele tem um range de código
+- Status é nada mais nada menos que um numero que tras pra gente informações sobre o retorno da requisição
+- Então, por exemplo, todo Status que você vê que começa com 200, ele é OK, a requisição funcionou
+- 300 é movido. Tudo o que estiver no range de 300, 301, 304, etc, significa que esse conteúdo não existe mais e que ele foi movido de um lugar para outro
+- O 400 é o range de erro pelo lado do cliente. Então, ele pode não ter encontrado a url que você mandou, sendo assim, tendo como status o 400, que é chamado de Bad Request, e a gente vai ver bastante. O 401 é não autenticado, 403 é não autorizado. Depois a gente vai ver tudin direitin e com o tempo aprender melhor sobre cada
+- O status 500 é erro interno no servidor. Tipo quando você vai tentar acessar um banco de dados e o banco de dados tava fora. Ele vai retornar o Status 500
+- Todos esses conceitos apresentados durante esses arquivos de texto, são uma padronização global, para tanto quando a gente for consumir alguma API de alguém, para quando alguém for consumir a nossa API, já se sentir em casa
+- E fim. Não sei se vai ser necessário criar outro documento de texto dps desse explicando tudo, pois agora o Balta vai explicar como funciona um app ASP.NET usando o projeto que a gente criou. Se der bom, todos os comentários vão ficar no código msm (E lembrando, é só pra esse contexto que eu to comentando código, nunca faça isso na vida real). Mas se for, já sabe que vc deve ir pro txt 5

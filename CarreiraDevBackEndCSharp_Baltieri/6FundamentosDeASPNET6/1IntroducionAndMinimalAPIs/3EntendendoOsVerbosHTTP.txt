@@ -1,0 +1,19 @@
+- Bem, aprendemos que quando atualizamos o nosso endereço enviamos uma requisição para a nossa api, onde vai ser processada no back e dps entregue na tela, que no nosso caso, é feito através da entrega da palavra Hello World!
+- Existem quatro formas da gente interagir com a nossa aplicação web, e essas formas são através dos métodos ou verbos como também são chamados
+- Então toda vez que a gente atualiza o endereço (ou bota ele pela primeira vez), fazendo todo o processo que já falamos acima, ele vai fazer um GET (Obter), onde basicamente ele está pedindo alguma informação para o servidor, fazendo uma requisição GET. O servidor vai processar essas infos e devolver essa informação pra gente
+- Além do GET a gente tem outro metodo muito famoso que é o POST (Enviar). Que é um método que a gente vai utilizar para enviar informações para a nossa aplicação
+- Também temos o método PUT (Atualizar), onde a gente atualiza alguma informação existente
+- E também temos o DELETE (Delete), onde a gente deleta alguma informação existente
+- É basicamente os métodos de CRUD que a gente aprendeu nas aulas anteriores. Porém eles utilizam verbos diferentes, mas no fim, a função desejada é a mesma, mas em um contexto diferente
+- Um outro ponto é que nesse momento a gente não conseguir realizar os métodos PUT e DELETE (O balta não diz pq mas ta na cara que é pelo fato de que a gente não tem nada criado ainda)
+- Mas usaremos o POST, onde para isso a gente vai precisar de um formulário para realizar esse envio
+- E a maneira mais fácil que a gente tem de fazer isso é usando cliente chamado de getpostman
+- O Postman é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.
+- Para baixar ele é só acessar esse endereço: https://www.postman.com/downloads/
+- Fazendo a instalação dele, a gente já vai ter ele localmente para começar a trabalhar
+- Depois de instalado, ele vai pedir para você criar uma conta. E depois disso a gente pode começar a usar
+- Vá no navegador e copie o endereço do nosso localhost
+- Vá para o Postman e provavelmente como é sua primeira vez usando, ele vai ter uma aba chamada Overview aberta. Do lado dela tem um sinal de +, você aperta nele e vai abrir uma janela pra gente começar a fazer as nossas requisições. Pode fechar a aba overview
+- Nessa aba nova pode ver que tem uma parte onde tem escrito GET, e do lado dele um campo para ser preenchido, e é justamente lá onde iremos colar o nosso endereço. Depois de colado, aperte o botão SEND que fica logo do lado. Ao fazer isso ele vai trazer o nosso Hello World! pra tela
+- No meu deu um erro, onde apareceu um aviso da verificação SSL, se caso aconteça com você pode clicar em disable ssl verification. Isso acontece, pois por algum motivo o endereço não está verificado, mas vou ajeitar isso dps
+- Ao apertar no SEND com tudo certo, ele vai trazer bastante informação pra gente. Que são coisas que a gente sempre vai estar utilizando no nosso desenvolvimento. Porém esse conteúdo vai continuar no txt 4. Cuida em ir pra lá!

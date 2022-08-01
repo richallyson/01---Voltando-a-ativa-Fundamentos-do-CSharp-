@@ -1,0 +1,10 @@
+- Para criar a aplicação web, a gente vai usar o comando dotnet new web -O MinhaApi
+- Dps disso vc entra na pasta com um cd .\MinhaApi\ e da um dotnet run
+- Você pode perceber que diferente da console application, a aplicação web fica rodando. As aplicações web ficam sempre em execução, então não vacila em fechar o terminal, pois no momento em que você fecha o terminal que ta rodando a aplicação web, ela fecha junto
+- E é justamente ai que a gente pode começar a enviar as requisições pra ela, onde ela vai processar e depois devolver
+- Então, basicamente o que uma aplicação web faz é ficar ouvindo um endereço, receber requisições e retornar requisições. Isso é tudo o que uma aplicação web faz
+- E aonde que ela fica ouvindo isso? Em um ip, através de um ip, no caso o: 127.0.0.1, que também é conhecido como localhost
+- Agora, no nosso terminal, você pode ver que logo na segunda linha tem isso: Now listening on: https://localhost:7177
+- Segure o control, e aperte em cima desse endereço https. Depois disso ele vai abrir dentro do seu navegador padrão, uma aba com um Hello World!
+- Nota que a gente saiu do programa onde a gente compila e programa as coisas e fomos para um browser. Massa né? Esse é o nosso primeiro passo, e a nossa primeira aplicação web criada. É simples, mas dessa simplicidade inicial vamos começar a aprofundar mais no conteúdo
+- E bem, depois daqui, vá para o próximo documento (2 - ProtocoloHTTP_DNSeFundamentos) onde vai ser explicado os fundamentos sobre http, dns, etc

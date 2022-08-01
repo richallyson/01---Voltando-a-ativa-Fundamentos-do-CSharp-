@@ -1,0 +1,11 @@
+Nesse curso, diferente dos anteriores, utilizaremos o dotnet 6. Mas o balta tbm em outros módulos vai mostrar pra gente no dotnet 5, pois muitas empresas ainda utilizam essa versão, assim como a 3.1
+
+Mas bem, o que a gente vai aprender nesse curso? VAMOS APRENDER A CRIAR APLICAÇÕES WEB!! FINALMENTE!! Pois é a partir daqui que se vc faz direitin, tu já pode ir sapecando curriculo pelos cantos pra tentar começar a viver do sonho.
+
+A gente vai trabalhar muito no backend, na parte que roda no servidor, e a gente vai criar APIs. Tudo o que a gente fez antes foi feito dentro console, a gente sempre criava uma console application, e isso pro mundo real, nem sempre vai ser eficiente, a não ser em casos de operações locais, mas na maioria das vezes a gente vai precisar integrar com outras aplicações, e ai o conceito de APIs, ou WEB APIs, se justifica aqui. Então, quando a gente falar em integração com outras partes, a gente ta falando em APIs.
+
+Então, basicamente o que a gente vai fazer aqui, é criar uma aplicação web e essa aplicação web vai receber o que a gente chama de requisições, vai manipular essas requisições, vai fazer o que tem que fazer e devolver isso pra tela. Então, se a gente fosse pensar no modelo da calculadora que a gente fez nas aulas passadas, ao invés de ter uma tela para digitar a calculadora, a gente teria um endereço, uma url, onde a gente manda as informações pra ela, por exemplo, o numero que a gente quer somar, e ela nos devolve o resultado. Então a gente faz uma requisição pra API, manda os numeros que deseja somar, e ela trás o resultado dessa soma pra gente. É basicamente como se fosse um garçom(API), ele vai receber os pedidos, leva o pedido pra cozinha (backend), a cozinha faz a comida, entrega ao garçom, e o garçom entrega o pedido para o cliente (tela).
+
+E por fim, esse curso é um curso cumulativo, para fazer ele bem, tem que ter feito todos os anteriores. Sem isso vai ser extremamente complicado, se não, impossivel.
+
+E para criar a aplicação web, a gente vai usar o comando dotnet new web -O "NomeDoProjeto"

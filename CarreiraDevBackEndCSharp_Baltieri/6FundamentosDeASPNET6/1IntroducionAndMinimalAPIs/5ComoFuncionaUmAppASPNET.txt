@@ -1,0 +1,12 @@
+- Olha nós aqui de novo kkkkk Precisou sim. Não vale a pena comentar no código, pois ele ta explicando só sobre estrutura de projeto
+- E bem, a estrutura do projeto é quase a mesma dos projetos de console que a gente criou, com a exceção de dois arquivos, o: appsettings.Development.json e o appsettings.json
+- A gente não vai se aprofundar neles agora, apenas no futuro
+- Uma aplicação web é um exe, uma dll, que fica rodando, fica em execução no computador, e enquanto ele ta executando, ele fica ouvindo uma determinada porta do seu computador, e ele responde a possiveis requisições dessa porta
+- Ou seja, no meu caso onde a porta é 7177, tudo o que passar por essa porta, vai cair dentro do nosso program.cs da nossa aplicação
+- Futuramente a gente vai aprender a endereçar, a trabalhar com rotas, que vão trabalhar com diferentes partes da nossa aplicação 
+- Então, pra criar uma aplicação web que vai ficar ouvindo uma porta, a gente tem que criar uma variavel chamada de builder, ou qualquer outro nome que você queira colocar (porém, é melhor aceitar a sugestão do dotnet, pra ficar tudo bonitin), onde dentro dessa variavel builder a gente vai trazer funções que criam uma aplicação web pra gente: var builder = WebApplication.CreateBuilder(args);
+- E apenas com isso a gente cria uma aplicação web
+- Feito isso, a gente tbm precisa chamar o metodo build, pra de fato construir a nossa aplicação: var app = builder.Build();
+- E logo depois a gente coloca a nossa aplicação pra rodar com: app.Run();
+- Com isso a gente cria uma aplicação web que fica ouvindo e esperando requisições
+- Agora sim, tem documento de texto mais explicando não. Vai ta tudo no código
