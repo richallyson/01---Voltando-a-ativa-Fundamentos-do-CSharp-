@@ -47,6 +47,12 @@ Aprenda a extrair o melhor da performance e produtividade do Entity Framework, o
 * Criando um banco via Migrations e geração de script SQL via Migrations
 * Práticas de performance
 
+## Fundamentos do ASP.NET 6 - Curso 2811
+Um dos requisitos mais exigidos no mercado hoje é a capacidade de criar APIs, e nesta etapa vamos aproveitar os fundamentos adquiridos anteriormente para criar APIs utilizando o ASP.NET Core e EF Core.
+
+#### Práticas realizadas:
+* Ainda não realizada
+
 ## Modelando Domínios Ricos (100%) - Curso 1975
 Sabendo os fundamentos e a criação de APIs com ASP.NET, chegou a hora de mover seu código para um próximo nível, aprendendo conceitos como SOLID e Clean Code na prática.
 
