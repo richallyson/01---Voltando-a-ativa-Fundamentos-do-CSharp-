@@ -1,0 +1,12 @@
+- Antes de tudo, primeiro veja a pasta Todo, estudo tudo nela, e tal hr vai ter uma msg dizendo pra você ir pra a outra pasta TodoComCodigoMelhorado
+- Vamos criar a nossa primeira API completa
+- Um To Do List, paradinha simples, pra iniciar a gente nesse novo mundo
+- E nisso aqui a gente vai usar tudo o que a gente fez antes nos cursos anteriores
+- Pra visualizar melhor, basta ir no projeto, mas basicamente é a mesma divisão que usamos no nosso projeto de EF, que no caso, é o framework de acesso a dados que a gente vai usar
+- E bem, como a gente vai usar o EF, é necessário instalar todos os pacotes que a gente usou no modulo anterior. É necessário instalar logo, pra gente conseguir configurar o nosso DataContext
+- Mas uma coisa, dessa vez ao invés da gente instalar o Microsoft.EntityFrameworkCore.SqlServer, a gente vai instalar o Microsoft.EntityFrameworkCore.Sqlite. Pra gente não ficar tendo que criar banco, fazendo conexão com o SqlServe, o Sqlite (que é uma versão reduzida do banco de dados), pra esse exemplo vai servir. Lembrando que o Sqlite não vale para produção, mas para propostas local, com pouco acesso de banco, uma ou duas pessoas no máximo, conectadas, ele é um banco que da conta. Ah, a versão é a --version 5.0.11
+- O EFC suporta diversos tipos de banco. E todo aquele esquema de mapeamento ainda permanece o mesmo, independente do tipo de banco que a gente for usar
+- Outro pacote que a gente vai usar é o EntityFrameworkCore.Design, que é aquele pacote que a gente usou no modulo de Migrations no curso de EF. Ele é necessário para se fazer os migrations
+- E esses são os pacotes que a gente vai precisar
+- Agora é só seguir o rumo e criar o DataContext, e fazer o Migrations para criar o banco usando o Sqlite
+

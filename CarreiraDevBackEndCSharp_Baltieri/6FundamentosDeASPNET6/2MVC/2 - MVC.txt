@@ -1,0 +1,28 @@
+- No modulo anterior do curso de ASP.NET, a gente fez tudo no Program, e claro que isso foi apenas para carater de demonstração. Não faz sentido a gente botar todo o nosso código apenas dentro de um arquivo
+- A gente já viu o conceito de Models, que são classes que refletem as tabelas que a gente tem no nosso banco. E agora vamos introduzir um novo conceito chamado MVC
+- MVC (Models, Views, Controllers) é um modelo de arquitetura. É um padrão de divisão da nossa aplicação. Então a gente pode organizar o nosso projeto, a nossa aplicação, usando um modelo chamado MVC.
+- Como já dito, a gente já conheceu os Models em outros cursos, porém não vimos as Views nem os Controllers
+- As views são o que o cliente vê. Então no nosso caso, a gente não vai ter Views no nosso projeto, pois o resultado final vai ser sempre um JSON, um JavaScript Object Notation. Então a gente não tem views nos projetos de API, pelo menos na maioria dos projetos. Afinal não faz sentido a gente mostrar um JSON para o usuário, pois é um dado que ele não saberia ler, e nem faria sentido ele ler, pois são notações voltadas ao backend
+- Sendo assim, do MVC em projetos de API, a gente acaba usando só o M e o C. O V a gente pula nesse caso aqui, pois a gente não tem como resultado final, uma tela, mas sim um serviço de requisições
+- Para exemplificar melhor: Views = HTML. A tela que o cliente enxerga
+- E se a gente já sabe que é o Model, que é um modelo que represente as nossas tabelas no banco, então, o que são os Controllers?
+- Os Controllers são exatamente os itens que vão receber as requisições, gerenciar essas requisições e devolver um valor pra tela. Então, os Controllers podem receber um Model ou devolver um Model, ou nenhum nem outro. Pode receber um objeto diferente, trabalhar com os Models, e devolver, como fizemos com o JSON
+- A iteração que a gente tem no mvc é a seguinte: a gente tem Models tanto nos Controllers quanto nas Views. Então, a View faz uma requisição pro Controller (no nosso caso a gente não tem View, quem vai fazer essa requisição pra gente é o Postman), entra uma requisição pro Controller, o Controller trabalha junto com o Model, então ele se baseaia no Model (afinal é a nossa fonte de dados pra prover informações pra View), o Model devolve essa informação pro Controller, que por sua vez devolve pra View. Para visualizar melhor, basta ver a figura MVC e MVC2, aqui nessa pasta
+
+= Outra forma de explicar como funciona o MVC =
+
+- O Controlador (controller) envia comandos para o modelo para atualizar o seu estado (por exemplo, editando um documento). O controlador também pode enviar comandos para a view associada para alterar a apresentação da visão do modelo (por exemplo, percorrendo um documento).
+
+- Um modelo (model) armazena dados e notifica suas views e controllers associados quando há uma mudança em seu estado. Estas notificações permitem que as views produzam saídas atualizadas e que os controllers alterem o conjunto de comandos disponíveis. Uma implementação passiva do MVC monta estas notificações, devido a aplicação não necessitar delas ou a plataforma de software não suportá-las.
+
+- A visão (view) gera uma representação (Visão) dos dados presentes no modelo solicitado, fazendo a exibição dos dados, sendo ela por meio de um html ou xml.
+
+= Outra forma de explicar como funciona o MVC (bem informal kkkkk) =
+
+- Vou fazer como se fosse uma conversinha pra não ter erro na hora de entender como funciona
+
+- A view precisa aprensentar uma figura para o seu usuário que pediu ela, então ele fala: Oh controller, me envia aquele model da figura x, pois o patrão ta pedindo ela. 
+- O controller responde: beleza, deixa eu pegar esse model aqui que jaja te envio. 
+- O controller procura esse model, acha e fala: Oh view, achei o model, toma aqui, já no ponto pra ser apresentado pro usuário. - 
+E por fim a view fala: valeuzão demais, jaja falo de novo ein"
+

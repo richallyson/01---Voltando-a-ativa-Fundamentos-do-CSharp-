@@ -1,0 +1,3 @@
+- Agora a gente vai criar o nosso primeiro controller. No caso, você já vai ver tudo criado né kkkkk Mas saiba que seguindo o texto as coisas foram acontecendo, e nesse momento em que você está lendo este texto, foi o momento em que eu fui pro VSCode e fui codar a nossa primeira controller. Sendo assim, a maioria das descrições explicando cada ponto de uma controller, vai ta lá, dentro da pasta chamada Controllers
+- A gente pode criar uma aplicação já com a arquitetura MVC nela, pelo asp.net, mas no nosso caso, estamos construindo essa organização na mão. Mas sempre que criarmos de forma automatica, o dotnet já cria as pastas pra gente, e dentro da pasta Controllers, sempre vai ter um arquivo chamado de HomeController.cs
+- E o que é um controller n
