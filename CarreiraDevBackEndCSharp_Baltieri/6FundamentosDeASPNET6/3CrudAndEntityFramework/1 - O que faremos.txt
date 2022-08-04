@@ -1,0 +1,26 @@
+- Primeiro, vamos sair do Visual Studio Code, e começar a usar o Visual Studio Community com o Resharp, assim como também iremos conhecer o Rider da JetBrains (Já vem com o Resharp instalado, é importante ter ele instalado no Visual Studio pois ele otimiza DMS o nosso tempo), que são duas IDEs para dotnet
+- Se você for estudante de algum curso de faculdade e tiver o email institucional, pode pegar tanto o Resharp pro Visual Studio, como o Rider de graça, com a licensa de estudante. Ambos são produtos da JetBrains
+- O Resharp é um plugin de refatoração de código, além de outras coisas, que cara, ajuda DMS. O Balta mesmo disse que não vive sem ele. E todos os devs dotnet que conheço usam ele, pois literalmente pode fazer com que você realize suas atividades na metade do tempo que levaria sem ele
+- Tanto no Visual Studio quanto no Rider, a gente consegue criar os projetos diretamente da tela dele, sem precisar digitar os códigos como a gente sempre fez. Porém, não iremos nos utilizar desses artificios, pois é melhor continuar criando os nossos projetos através do Terminal por motivos de padronização e pelo fato de que a criação no terminal sempre vai ser a mesma, então caso na empresa que você trabalhe tenha alguma diferença em IDE, etc, você já vai saber como cria um projeto, independente
+- A gente vai ver muito conteúdo que já vimos em cursos anteriores, então, se você se sentir perdido, volte nos cursos anteriores pra estudar
+- A gente primeiro vai trabalhar nesse projeto usando o Visual Studio 2022, usando o .NET 6, e depois a gente vai refazer esse mesmo projeto usando o .NET 5. E logo depois vamos usar o Rider pra gente ter uma noção de comparação entre IDEs
+- E durante as aulas o Balta vai explicar sobre as duas IDEs. Eu não vou explicar essa parte pois não faz sentido, o melhor a se fazer é abrir a IDE e estudar ela, junto de algum dos diversos vídeos que existem no Youtube explicando essas IDEs
+- Pra esse módulo a gente criou um novo projeto: dotnet new web -o Blog
+- Agora, abre teu Visual Studio e vai no teu projeto criado e abre o arquivo .csproj
+- Ao abrir o Visual com o Resharp instalado pela primeira vez, ele vai pedir pra você por a licensa dele, mas ai basta você logar na sua conta de estudante (caso você seja, como eu sou), que ele vai autenticar pra você, caso você tenha feito esse cadastro no site da JetBrains
+- No projeto a gente deixa apenas a janela do Gerenciador de Soluções. Caso queira abrir dps essas janelas que fechou, basta abrir o menu View
+- Outra coisa, a gente vai aproveitar coisas do nosso curso de EF, pra não ter que digitar tudo de novo. Vamos aproveitar a pasta Data e a pasta Models, a versão final
+- E como tudo meu é ultra comentado kkkk o melhor é ir no próprio repositório do curso no git do balta e baixar ele. Com ele baixado você vai entrar na pasta src, depois no Módulo 3 e copiar as pastas Data e Model, e colar no projeto Blog que a gente criou (que leva o mesmo nome do projeto do Balta)
+- Link para o repo: https://github.com/balta-io/2808
+- E pronto. Agora a gente pode continuar o nosso estudo na suavidade
+- Agora a gente tem que importar todos os pacotes que a gente usou pra trabalhar nesse projeto ef. Acessa a pasta Blog e sapeca
+- Primeiro pacote: dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.11
+- Segundo pacote: dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.11
+- Terceiro pacote seria o do Migrations, mas como a gente já instalou globalmente o dotnet ef, já ta safe
+- A gente tem que mudar o nome do database no DataContext, eu botei WebBlog. O balta botou Blog, pq ele deletou aquele nosso antigo Blog, mas eu não kkkk pq quero ter ele pra servir de estudo no futuro. Ai botei esse novo nome pois a gente vai gerar o nosso novo banco através de Migrations
+- E claro que pra isso a gente vai precisar do nosso Docker pra rodar nossa MV do SqlServer. Haja memória viu kkkkkk
+- Como a gente copiou o código dos Models e do Data do curso anterior, que já tinha todo o Mapeamento pronto, nosso banco foi criado bonitinho, com todas as tabelas, propriedades das tabelas, e tabelas de relacionamento
+- Agora é hora de ir pro código. Vamo criar os controllers e adicionar o suporte a eles como fizemos no módulo anterior. Não vou explicar essa parte no código, pois como já fizemos, não faz sentido eu explicar de novo
+- E sim a gente vai trabalhar com MVC nesse módulo tbm
+- Depois de adicionar o suporte pros controllers e pro dbcontext na main, vá pro HomeController
+- Depois disso vá pra CategoryController
