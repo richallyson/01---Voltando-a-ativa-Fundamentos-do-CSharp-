@@ -24,3 +24,4 @@
 - E sim a gente vai trabalhar com MVC nesse módulo tbm
 - Depois de adicionar o suporte pros controllers e pro dbcontext na main, vá pro HomeController
 - Depois disso vá pra CategoryController
+- Depois de ver tudo da CategoryController, abra o projeto da pasta Blog2
