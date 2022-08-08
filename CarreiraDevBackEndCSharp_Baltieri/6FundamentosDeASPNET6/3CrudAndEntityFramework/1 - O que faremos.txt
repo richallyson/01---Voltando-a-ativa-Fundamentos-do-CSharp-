@@ -25,3 +25,8 @@
 - Depois de adicionar o suporte pros controllers e pro dbcontext na main, vá pro HomeController
 - Depois disso vá pra CategoryController
 - Depois de ver tudo da CategoryController, abra o projeto da pasta Blog2
+- Depois de terminar o CRUD de controller, o Balta começa a testar tudo, e também a debugar, mostrando todas as diferenças que tem em debugar entre o Visual Studio e o Visual Studio Code
+- Depois a gente colocou tudo dentro de try/catchs pra evitar falhas no nosso código
+- Como já tem conteúdo bastante no Blog2, agora a gente vai pro Blog3, melhorar mais ainda o código. Ou seja, como vai passar por alterações maiores, sempre que passar por alterações maiores, eu vou copiar esse projeto, e continuar dali, pra não ficar um embaralhado enorme
+- Outra coisa importante é que esse modelo da nossa aplicação é bom para aplicações de pequeno e médio porte, para uma aplicação grande, existem modelos bem melhores
+- Nesse projeto a gente criou uma pasta nova chamda de ViewModels, onde nela irão conter os modelos que vão conversar diretamente com a View, no nosso caso, o Postman, para mais explicações sobre, é só ir no CategoryController.cs

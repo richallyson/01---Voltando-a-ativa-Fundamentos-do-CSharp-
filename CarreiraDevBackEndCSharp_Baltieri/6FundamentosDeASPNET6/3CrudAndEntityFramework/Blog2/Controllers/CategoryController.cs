@@ -8,7 +8,7 @@ namespace Blog.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-    
+
         // = Async e Await = Tudo o que eu vou falar aqui já foi dito no curso de EF, mas vamo reforçar né?
         // Vamos melhorar os nossos métodos trabalhando com o Async e o Await.
         // Como já vimos no curso de EF, Async e Await tornam os nossos métodos em métodos assincronos
@@ -65,65 +65,135 @@ namespace Blog.Controllers
         // Então, isso desafoga bastante o processador, desafoga bastante o servidor. E a gente começa a usar multitarefas, usar o que melhor tem do dotnet em relação a performance
         // E uma dica importante: uma vez que o método é async, tudo o que poder ser assincrono dentro do método, faça
 
+        // = Tratando erros =
+        // Eu falei que nãoia explicar mais o código. Mas me referi a mudança das nossas funções para async
+        // Nessa parte aqui a gente vai tratar erro, pra evitar que o usuário receba aquelas mensagens gigantes, que ele nem sabe o que é, quando acontece um erro
+        // Um exemplo foi o que aconteceu cmg, quando fui criar uma categoria eu passei o Id, pois tinha esquecido que esse mapeamento que a gente fez...
+        // no curso de EF, trazia consigo o IDENTITY SEED como Id das tabelas, ou seja, a gente n precisa passar o Id pois ele é gerado automaticamente
+        // Então, basicamente agora iremos tratar esses erros, usando o que a gente já viu em outras aulas, que é o try/catch
+        // E bem, o erro que foi apresentado quando eu tentei colocar o Id, foi o DbUpdateException
+        // Então, as exceções aqui do dotnet, são dos mais espeficicos para os mais genéricos. A gente pode ter diversos catchs, indo do mais especifico ao genérico
+        // E no caso, quando eu botei o trecho de código dentro do try/catch, ele criou pra gente um catch genérico, em adição disso vamos botar mais um catch espefico pro erro que ele retornou quando tentei colocar um Id
+        // Então, se der um erro do tipo DbUpdateException, a gente vai retornar um StatusCode()
+        // E se for um erro desconhecido, como no caso do segundo Catch, a gente retorna diretamente o StatusCode especifico pra isso
+        // Dentro dessa função StatusCode, a gente passa primeiro o status code, no nosso caso 500, e depois um objeto qualquer, no nosso caso, vamos passr uma string
+        // O nosso ex ta cinza, sublinhado de verde, pelo fato de não estar usando ele. Caso queira pode passar mais informações sobre o erro
+        // Porém o Balta recomenda não fazer isso, pois isso da margem a invasão. Alguém mal intecionado pode ver informações sensiveis do projeto e tentar invadir 
+        // Depois disso, testa no Postman, passando uma Id, que dessa vez ele vai apresentar uma tela muito mais amigavel pra gente
+        // Como o código ta pronto aqui e jã vai retornar a msg amigavel, retira o try/catch e testa fazer sem, e depois bota tudo no trycatch como ta aqui
+        // Uma dica legal pra padronizar mais ainda nossos erros, as nossas mensagens de erro, é a utilização de tagas
+        // Como é visto nos returns dos catchs. A gente cria umas tags especificas pra certos erros, dentro de uma categoria para que no futuro quando a gente for precisar procurar esse erro dentro do nosso código, fique mais fácil de se achar através do control f
+        // E pra buscar no projeto todoo, basta fechar todas as abas. Ai quando você der um control f pra procurar o erro, ele já vai especificamente praquele erro que apareceu na tela
+        // Os try/catch serve também pras outras rquisições. E agora nosso código ta previnido de falhas, com tudo tratado certinho
+
         [HttpGet("v1/categories")] 
         public async Task<IActionResult> GetAsync([FromServices] BlogDataContext context)
         {
-            var categories = await context.Categories.ToListAsync();
-            return Ok(categories);
+            try
+            {
+                var categories = await context.Categories.ToListAsync();
+                return Ok(categories);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "05XE01 - Falha interna no servidor!");
+            }
         }
 
         // Agora vamo criar o resto do CRUD em async, no caso, transformar o que já tem e criar o que não tem
         // Não vou explicar sobre as mudanças, pq já tem uma lapada gigantesca de comentário acima que explica tudo
-        // E o resto a gente já fez no módulo anterior desse curso. E depois abre teu Docker e Postman pra testar tudo
+        // E o resto a gente já fez no módulo anterior desse curso. E depois abre teu Docker e Postman pra testar tud
 
         [HttpGet("v1/categories/{id:int}")] // Em geral, a gente pode definir o tipo do parametro que a gente recebe na rota direto na rota
         public async Task<IActionResult> GetByIdAsync([FromServices] BlogDataContext context, [FromRoute] int id)
         {
-            var category = await context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+            try
+            {
+                var category = await context.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
-            if(category == null)
-                return NotFound();
+                if(category == null)
+                    return NotFound();
 
-            return Ok(category);
+                return Ok(category);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "05XE02 - Falha interna no servidor!");
+            }
         }
 
         [HttpPost("v1/categories")]
         public async Task<IActionResult> PostAsync([FromServices] BlogDataContext context, [FromBody] Category model)
         {
-            await context.Categories.AddAsync(model); // Sempre veja se o método suporta async
-            await context.SaveChangesAsync(); // E se suportar async use e não se esqueça do await antes
+            // O ReSharp permite que tu selecione um trecho de código e bote logo dentro de um try/catch
+            // Pra isso basta tu selecionar o trecho, clicar na marretinha que aparece ao lado, e depois ir em Surround with, e depoois em try
+            try
+            {
+                await context.Categories.AddAsync(model); // Sempre veja se o método suporta async
+                await context.SaveChangesAsync(); // E se suportar async use e não se esqueça do await antes
 
-            return Created($"categories/{model.Id}", model);
+                return Created($"categories/{model.Id}", model);
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, "05XE03 - Não foi possivel incluir a categoria");
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "05XE04 - Falha interna no servidor!");
+            }
         }
 
         [HttpPut("v1/categories/{id:int}")]
         public async Task<IActionResult> PutAsync([FromServices] BlogDataContext context, [FromRoute] int id, [FromBody] Category model)
         {
-            var category = await context.Categories.FirstOrDefaultAsync(c => c.Id == id);
-            if (category == null)
-                return NotFound();
+            try
+            {
+                var category = await context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+                if (category == null)
+                    return NotFound();
 
-            category.Name = model.Name;
-            category.Slug = model.Slug;
+                category.Name = model.Name;
+                category.Slug = model.Slug;
 
-            context.Categories.Update(category);
-            await context.SaveChangesAsync();
+                context.Categories.Update(category);
+                await context.SaveChangesAsync();
 
-            return Ok(category);
+                return Ok(category);
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, "05XE05 - Não foi possivel atualizar a categoria");
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "05XE06 - Falha interna no servidor!");
+            }
 
         }
 
         [HttpDelete("v1/categories/{id:int}")]
         public async Task<IActionResult> DeleteAsync([FromServices] BlogDataContext context, [FromRoute] int id)
         {
-            var model = await context.Categories.FirstOrDefaultAsync(c => c.Id == id);
-            if (model == null)
-                return NotFound();
+            try
+            {
+                var model = await context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+                if (model == null)
+                    return NotFound();
 
-            context.Categories.Remove(model);
-            await context.SaveChangesAsync();
+                context.Categories.Remove(model);
+                await context.SaveChangesAsync();
 
-            return Ok("Categoria apagada com sucesso!");
+                return Ok("Categoria apagada com sucesso!");
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, "05XE07 - Não foi possivel deletar a categoria");
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "05XE08 - Falha interna no servidor!");
+            }
         }
     }
 }
