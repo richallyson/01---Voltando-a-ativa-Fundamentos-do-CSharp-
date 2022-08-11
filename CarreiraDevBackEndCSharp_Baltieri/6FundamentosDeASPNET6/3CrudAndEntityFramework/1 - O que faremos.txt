@@ -30,3 +30,6 @@
 - Como já tem conteúdo bastante no Blog2, agora a gente vai pro Blog3, melhorar mais ainda o código. Ou seja, como vai passar por alterações maiores, sempre que passar por alterações maiores, eu vou copiar esse projeto, e continuar dali, pra não ficar um embaralhado enorme
 - Outra coisa importante é que esse modelo da nossa aplicação é bom para aplicações de pequeno e médio porte, para uma aplicação grande, existem modelos bem melhores
 - Nesse projeto a gente criou uma pasta nova chamda de ViewModels, onde nela irão conter os modelos que vão conversar diretamente com a View, no nosso caso, o Postman, para mais explicações sobre, é só ir no CategoryController.cs
+- Depois disso vá pro Blog4, pois vai ter uma mudança boa no código. E como eu já disse, toda vez que o código for mudar muito, eu vou criar um projeto novo, para a partir dali mudar as coisas, sem perder o que a gente aprendeu no passado
+- Acesse o arquivo ResultViewModel.cs, pois agora iremos padronizar as nossas requisições e resultados da nossa API. Pra entender melhor cola lá no arquivo
+- Bem, terminamos esse módulo. Eu peguei tudo o que aprendi e completei esse projeto. Fazendo tudo o que foi ensinado nesse módulo. Adicionei os mapeamentos que faltavam, criei os novos controllers, as novas ViewModels, etc. TUdo isso ta no Blog5. E agora, vamo pro próximo módulo!!!
