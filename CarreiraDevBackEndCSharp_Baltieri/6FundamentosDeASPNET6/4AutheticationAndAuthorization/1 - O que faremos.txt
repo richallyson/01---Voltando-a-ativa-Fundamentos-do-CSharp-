@@ -1,0 +1,26 @@
+- Primeiro, a gente agora vai usar o Rider ao invés do Visual Studio
+- E bem, como o nome da pasta já diz, nesse modulo iremos trabalhar com autorização e autenticação
+- Isso serve justamente para controlar o acesso as nossas informações
+- Com esse controle a gente é capaz de ver o quem ta fazendo acesso a desses dados, assim como também, somos capazes de limitar o que se pode fazer com os dados
+- Basicamente vamos criar autorizações para certas coisas. Por exemplo, a gente tem o usuário Admin, ele teria acesso a tudo da nossa aplicação. O usuário escritor teria acesso apenas a parte de criação de posts e edição. E por fim o usuário consumidor, que tem acesso só a leitura de dados
+- Isso seria a autorização
+- A autenticação o nome já entrega tudo. É literalmente autenticar os dados de alguma coisa dentro do nosso app. Tipo, eu entrar como admin e ser autenticado realmente como admin. Ou seja, ao logar por exemplo, a autenticação vai ocorrer, botando o usuário dentro da sua função autenticada
+- Autenticação diz quem você é, e autorização diz o que você pode fazer
+- Pra isso a gente vai popular o nosso banco primeiro usando esse script: https://github.com/balta-io/2811/blob/main/Modulo%203/Scripts/blog.sql
+- Deleta o antigo banco, pra zerar, faz a migration de novo, e sapeca esse sql. Se der erro nas rows 32, 33 e 34, tem a explicação no script mesmo de como resolver
+- E basicamente o que a gente vai fazer nesse módulo, é limitar os nossos endpoints, limitar os nossos acessos
+- Existem várias formas de se fazer autenticação e autorização que a gente vai encontrar no mercado, mas primeiro vamos estudar os principios, que são fundamentais pra gente conseguir destinguir n tipos de autenticação e autorização. Além de também serem principios que também servem para a nossa implementação
+
+= Fundamentos =
+
+- Primeiro ponto que a gente tem que entender sobre APIs, ou aplicações WEB, é que a gente tem uma falsa impressão de que o usuário fica logado no site. 
+- Então, no caso das APIs, o usuário nunca fica logado na API. A autenticação é feita a cada requisição
+- E como funciona isso? A gente tem uma URL onde o usuário vai enviar o usuário e senha dele, esse usuário e senha vai ser transformado em um Token (que é uma string imensa), e esse Token vai ser enviado de volta pra tela. A partir desse momento, qualquer requisição que ele queira fazer pra nossa API (autenticado), ele tem que passar esse Token
+- Então o usuário não fica autenticado, ele faz uma requisição enviando um Token, e ai a nossa API vai pegar esse Token, vai desencriptar ele (o token é encriptado pra que ngm possa ver o que tem dentro dele) e ele vai saber qual o usuário e a partir disso vai saber qual o tipo de acesso que ele tem, baseado nesse Token
+- Ou seja, você nunca fica autenticado na requisição, você sempre se autentica a cada requisição da API
+- Segundo ponto, se eu mando um Token pra tela, alguém pode editar esse Token e por exemplo, mudar seu perfil de usuário para admin. Imagina se isso acontece? Seria um caos e abriria brechas de segurança pra sua aplicação/API
+- E pra prover segurança, a gente encripta o Token. A gente pode abrir esse Token, visualizar esse Token, mas não pode editar esse Token, pq esse Token (muito Token kkk), uma parte dele é encriptado com uma chave, que só a nossa API vai ter
+- Então a gente vai criar uma chave na nossa API, um Hash, uma cadeia de caracteres, que tem que ser bem forte, não pode ser 1234 kkk. A gente vai criar uma senha ultra complexa com tipo, 36 caracteres mais ou menos, e depois a gente vai encriptar o nosso token com essa chave e mandar ele pra tela
+- Ai toda vez que a tela fizer uma requisição pra gente, ele vai passar esse Token, a gente vai abrir esse Token usando a nossa chave, ver o usuário que ta dentro dele, quais os perfis que ele tem, e ai a gente vai dar seguimento na autenticação aqui
+- Agora bora pro código. E tu vai primeiro pro arquivo Configuration.cs
+- Por enquanto ela ta na raiz, mas provavelmente a gente bote ela em outro canto com o decorrer do projeto

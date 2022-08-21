@@ -71,6 +71,10 @@ namespace Blog.Controllers
 
                 return Created($"v1/posts/{post.Id}", new ResultViewModel<Post>(post));
             }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, new ResultViewModel<Post>("Não foi possivel incluir o post"));
+            }
             catch
             {
                 return StatusCode(500, new ResultViewModel<Post>("Falha interna no servidor"));
@@ -105,9 +109,13 @@ namespace Blog.Controllers
 
                 return Ok(new ResultViewModel<Post>(post));
             }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, new ResultViewModel<Post>("Não foi possivel incluir o usuário"));
+            }
             catch
             {
-                return StatusCode(500, new ResultViewModel<Post>("Falha interna do servidor"));
+                return StatusCode(500, new ResultViewModel<Post>("Falha interna no servidor"));
             }
         }
 

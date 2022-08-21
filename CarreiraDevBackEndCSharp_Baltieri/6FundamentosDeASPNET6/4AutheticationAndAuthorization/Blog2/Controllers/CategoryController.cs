@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Blog.Controllers
 {
-    
 
     [ApiController]
     public class CategoryController : ControllerBase
