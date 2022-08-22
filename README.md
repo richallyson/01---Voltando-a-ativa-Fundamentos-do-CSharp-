@@ -54,6 +54,7 @@ Um dos requisitos mais exigidos no mercado hoje é a capacidade de criar APIs, e
 * Minimal API
 * API utilzando arquitetura MVC
 * Autenticação e autorização com Bearer Token utilizando JWT
+* Autenticação e autorização com ApiKey
 
 ## Modelando Domínios Ricos (100%) - Curso 1975
 Sabendo os fundamentos e a criação de APIs com ASP.NET, chegou a hora de mover seu código para um próximo nível, aprendendo conceitos como SOLID e Clean Code na prática.
