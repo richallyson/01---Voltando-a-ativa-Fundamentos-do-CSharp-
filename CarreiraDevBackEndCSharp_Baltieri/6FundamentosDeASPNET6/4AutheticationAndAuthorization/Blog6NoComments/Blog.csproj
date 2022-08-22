@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="SecureIdentity" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\PostController.cs" />
+    <Compile Remove="Controllers\UserController.cs" />
+    <Compile Remove="ViewModels\PostViewModels\**" />
+    <Compile Remove="ViewModels\UserViewModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="ViewModels\PostViewModels\**" />
+    <EmbeddedResource Remove="ViewModels\UserViewModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ViewModels\PostViewModels\**" />
+    <None Remove="ViewModels\UserViewModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="ViewModels\PostViewModels\**" />
+    <Content Remove="ViewModels\UserViewModels\**" />
+  </ItemGroup>
+
+</Project>
