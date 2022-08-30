@@ -1,0 +1,7 @@
+- Nesse módulo a gente vai entender mais sobre as configurações que a gente tem no aspnet, sobre o arquivo appsettings
+- Também iremos ver um pouco sobre envio de email. Vamos criar um serviço de envio de email
+- E também iremos trabalhar com upload de imagem. Que são os serviços que segundo o Balta, faltam pro o usuário na nossa API
+
+= Entendendo AppSettings =
+
+- Vai para o Configurations.cs
