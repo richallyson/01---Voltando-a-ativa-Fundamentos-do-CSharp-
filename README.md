@@ -1,4 +1,4 @@
-# Carreira_BackEnd_CSharp_Iniciate_ao_Mercado_BaltaIo
+# Carreira_BackEnd_CSharp_Iniciate_ao_Mercado_Balta
 Retomando os estudos de c# pelos curso do André Baltieri no balta
 
 Eai galera, beleza? 
